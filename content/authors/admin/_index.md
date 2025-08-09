@@ -50,8 +50,8 @@ interests:
 education:
   - area: PhD Transportation
     institution: Southeast University
-    date_start: 2019-03
-    date_end: 2023-07
+    date_start: 2019-03-18
+    date_end: 2023-07-23
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
