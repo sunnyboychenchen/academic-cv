@@ -54,7 +54,7 @@ education:
     date_end: 2023-07-23
     summary: |
       Thesis on Driving behavior and safety analysis of expressway interchange exit ramp in plateau environment
-. Supervised by Prof. Jianchuan Cheng and Prof. Fei Chen. Presented papers at TRB and WITC conferences with the contributions being published in 15 peer-reviewed journals.
+      . Supervised by Prof. Jianchuan Cheng and Prof. Fei Chen. Presented papers at TRB and WITC conferences with         the contributions being published in 15 peer-reviewed journals.
    
 
 # Skills
