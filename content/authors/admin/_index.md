@@ -34,11 +34,11 @@ profiles:
     url: chenzhu.wang@ucf.edu
     label: E-mail Me
   - icon: brands/github
-    url: [https://github.com/gcushen](https://github.com/sunnyboychenchen)
+    url: "https://github.com/sunnyboychenchen"
   - icon: brands/linkedin
-    url: h[ttps://www.linkedin.com/](https://www.linkedin.com/in/chenzhu-wang-903853287/)
+    url: "https://www.linkedin.com/in/chenzhu-wang-903853287/"
   - icon: academicons/google-scholar
-    url: [https://scholar.google.com/](https://scholar.google.com/citations?hl=en&user=FgKlt4sAAAAJ&view_op=list_works)
+    url: "https://scholar.google.com/citations?hl=en&user=FgKlt4sAAAAJ&view_op=list_works"
   - icon: academicons/orcid
     url: "https://orcid.org/0000-0001-8242-148X"
 
