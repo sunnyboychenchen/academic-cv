@@ -8,6 +8,7 @@ name_pronunciation: Chenzhu Wang
 # Full name (for SEO)
 first_name: Chenzhu
 last_name: Wang
+avatar: avatar11.jpg
 
 # Status emoji
 status:
