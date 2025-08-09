@@ -97,7 +97,7 @@ languages:
   - name: Chinese
     percent: 75
   - name: Portuguese
-    percent: 25
+    percent: 25 
 
 # Awards.
 #   Add/remove as many awards below as you like.
