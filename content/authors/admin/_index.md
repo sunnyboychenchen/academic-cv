@@ -31,8 +31,8 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: chenzhu.wang@ucf.edu
-    label: E-mail Me
+    url: "chenzhu.wang@ucf.edu"
+    label: "E-mail Me"
   - icon: brands/github
     url: "https://github.com/sunnyboychenchen"
   - icon: brands/linkedin
