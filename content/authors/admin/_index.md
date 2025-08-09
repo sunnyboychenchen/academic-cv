@@ -3,7 +3,7 @@
 title: "Chenzhu Wang"
 
 # Name pronunciation (optional)
-name_pronunciation: 王晨竹
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Chenzhu
