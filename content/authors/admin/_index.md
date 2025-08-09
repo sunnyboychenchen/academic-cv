@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Chenzhu Wang
+title: "Chenzhu Wang"
 
 # Name pronunciation (optional)
 name_pronunciation: 王晨竹
@@ -46,7 +46,7 @@ profiles:
 interests:
   - Artificial Intelligence
   - Transportation Safety
-  - Connected and automated vehicle
+  - Connected and Automated Vehicle
 
 education:
   - area: PhD Transportation Engineering
