@@ -1,13 +1,13 @@
 ---
 # Display name
-title: 吳健雄
+title: Chenzhu Wang
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Chenzhu Wang
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Chenzhu
+last_name: Wang
 
 # Status emoji
 status:
@@ -20,7 +20,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Postdoctoral Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
@@ -31,31 +31,27 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: chenzhu.wang@ucf.edu
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: [https://github.com/gcushen](https://github.com/sunnyboychenchen)
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: h[ttps://www.linkedin.com/](https://www.linkedin.com/in/chenzhu-wang-903853287/)
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: [https://scholar.google.com/](https://scholar.google.com/citations?hl=en&user=FgKlt4sAAAAJ&view_op=list_works)
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: [https://orcid.org/](https://orcid.org/0000-0001-8242-148X)
 
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Transportation Safety
+  - Connected and automated vehicle
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Transportation
+    institution: Southeast University
+    date_start: 2019-03
+    date_end: 2023-07
     summary: |
       Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
     button:
