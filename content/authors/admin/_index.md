@@ -3,7 +3,7 @@
 title: Chenzhu Wang
 
 # Name pronunciation (optional)
-name_pronunciation: Chenzhu Wang
+name_pronunciation: 王晨竹
 
 # Full name (for SEO)
 first_name: Chenzhu
