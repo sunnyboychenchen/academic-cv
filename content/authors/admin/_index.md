@@ -129,4 +129,4 @@ awards:
 
 ## About Me
 
-Chenzhu Wang is a postdctoral researcher of transportation engineeing at University of Central Florida. His research interests include focuses on enhancing traffic safety in connected and automated vehicle (CAV) systems through AI-driven risk modeling and behavior-based crash analysis. 
+Chenzhu Wang is a postdctoral researcher of transportation engineeing at University of Central Florida. His research interests include enhancing traffic safety in connected and automated vehicle (CAV) systems through AI-driven risk modeling and behavior-based crash analysis. 
