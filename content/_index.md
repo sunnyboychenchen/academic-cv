@@ -32,35 +32,46 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: "📚 My Research"
+      subtitle: ""
       text: |-
-I am a postdoctoral researcher at the University of Central Florida (SST Lab), working on **AI-driven transportation safety** with an emphasis on **multimodal machine learning / Large Language Models (LLMs)**, **connected-vehicle (CV) trajectory & video analytics**, and **causal, behavior-aware safety modeling** for proactive crash prediction and risk assessment.
-    
-### Signature Contributions
-- **From prediction to explanation (TR-C 2025):** Developed a machine learning + **causal mediation** framework to move beyond black-box risk prediction and provide interpretable explanations of roadway crash risk using connected-vehicle data.  
-  *Transportation Research Part C: Emerging Technologies, 183, 105479.* https://doi.org/10.1016/j.trc.2025.105479
-- **Spatiotemporal + behavioral heterogeneity for safety (AMAR 2025):** Proposed joint modeling strategies that address **temporal instability** and **spatial correlations** in injury severity, including pedestrian injury severity across vehicle movements at intersections.  
-  *Analytic Methods in Accident Research, 47, 100406.* https://doi.org/10.1016/j.amar.2025.100406
-- **Intersections & visual environment + spatial effects (AMAR 2025):** Built a grouped random-parameters Poisson–Lindley model with spatial effects to study intersection crashes, leveraging visual environment features and spatiotemporal instability.  
-  *Analytic Methods in Accident Research, 47, 100387.* https://doi.org/10.1016/j.amar.2025.100387
-- **Multi-task safety–mobility learning (AAP 2025):** Jointly evaluated tunnel crash severity and congestion duration using **cross-stitch networks**.  
-  *Accident Analysis & Prevention, 213, 107942.* https://doi.org/10.1016/j.aap.2025.107942
+I am a postdoctoral researcher at the University of Central Florida (SST Lab). My work focuses on **AI-driven transportation safety**, spanning **connected-vehicle (CV) trajectory & video analytics**, **causal and behavior-aware safety modeling**, and **spatiotemporal heterogeneity** for proactive crash prediction and risk assessment.
 
-### Data & Systems
-- **SAVeD Dataset (under review, Scientific Data):** A first-person social media dataset for ADAS-equipped vehicle near-miss and crash event analysis (with synchronized event understanding use cases).
+### Selected Journal Publications (by Theme)
 
-### Funded & Applied Research (Selected)
-- **Safe Streets for All (SS4A) Action Plan** (Lake-Sumter MPO, $955,580): multimodal crash prediction integrating CV trajectories, video-based features, and causal inference.
-- **Network Level Proactive Traffic Operations Indicator (NPTOI)** (FDOT, $247,952): core ML algorithms for multimodal crash prediction (trajectory + video + causal inference).
-- **Speed management MOEs by context classification** (FDOT, $240,000, PI; pending): AI-driven MOEs using multimodal CV–video data.
-- Total funding involvement: **$3.3M+** across FDOT, MPO, FHWA, and NSFC projects.
+#### 1) Causal & Explainable AI for Safety
+- **Transportation Research Part C (2025):** ML + causal mediation for interpretable crash risk mechanisms using CV data.  
+  *TR-C, 183, 105479.* https://doi.org/10.1016/j.trc.2025.105479
+- **Transportation Research Part C (under review / in progress):** Behavior-aware crash prediction with macro–micro exposure fusion (traffic + CV pre-crash dynamics).  
+  *(Manuscript line: dual-level exposure + causal heterogeneity)*
 
-### Honors
-- **National Excellent Doctoral Dissertation (Top-ranked)** (2023)
-- **Outstanding Reviewer Award** (ASCE JTE Part A, 2023)
-- **National Scholarship (PhD)** (2022)     
-        Please reach out to collaborate 😃
+#### 2) Spatiotemporal Heterogeneity & Bayesian Safety Modeling
+- **Analytic Methods in Accident Research (2025):** Spatiotemporal instability + spatial correlation in injury severity with Bayesian multilevel structure.  
+  *AMAR, 47, 100406.* https://doi.org/10.1016/j.amar.2025.100406
+- **Analytic Methods in Accident Research (2025):** Grouped random-parameters Poisson–Lindley with spatial effects for intersection crash analysis.  
+  *AMAR, 47, 100387.* https://doi.org/10.1016/j.amar.2025.100387
+- **Accident Analysis & Prevention (selected):** Bayesian/heterogeneity-aware safety evaluation under complex roadway and environment contexts.  
+  *(If you want, list 1–2 specific AAP papers here)*
+
+#### 3) Crash Type & Injury Severity Joint/Multivariate Modeling
+- **Analytic Methods in Accident Research / AAP (selected):** Joint modeling for crash type and severity with cross-movement dependence and correlation structure.  
+  *(Your typical line: multivariate / bivariate Bayesian models for intersection crashes)*
+
+#### 4) ITS Operations, Tunnel Safety & Multi-task Learning
+- **Accident Analysis & Prevention (2025):** Cross-stitch networks to jointly model tunnel crash severity and congestion duration (safety–mobility coupling).  
+  *AAP, 213, 107942.* https://doi.org/10.1016/j.aap.2025.107942
+
+#### 5) Connected & Automated Vehicles (CAV) and Cybersecurity-Oriented Safety
+- **Review / survey line (selected):** Cyberattack patterns, detection, stability impacts, and robust control strategies for CAV fleets in complex traffic scenarios.  
+  *(You can list your review or key paper(s) here once finalized)*
+
+#### 6) Multimodal / Video Understanding & Risk (VLM / LLM / Diffusion)
+- **Scientific Data (under review):** SAVeD dataset for ADAS-equipped near-miss & crash events to enable multimodal understanding and counterfactual safety analysis.
+- **Methods line (in progress):** LLM-assisted event parsing + controllable diffusion world models for counterfactual “what-if” safety assessment.
+
+### Collaboration
+I’m always open to collaboration on **CV trajectory analytics**, **Bayesian/causal safety modeling**, and **multimodal risk understanding**.
+
     design:
       columns: '1'
   
