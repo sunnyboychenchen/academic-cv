@@ -36,7 +36,7 @@ sections:
       subtitle: ''
       text: |-
        I am a postdoctoral researcher at the University of Central Florida (SST Lab), working on **AI-driven transportation safety** with an emphasis on **multimodal machine learning / Large Language Models (LLMs)**, **connected-vehicle (CV) trajectory & video analytics**, and **causal, behavior-aware safety modeling** for proactive crash prediction and risk assessment.
-
+    
 ### Signature Contributions
 - **From prediction to explanation (TR-C 2025):** Developed a machine learning + **causal mediation** framework to move beyond black-box risk prediction and provide interpretable explanations of roadway crash risk using connected-vehicle data.  
   *Transportation Research Part C: Emerging Technologies, 183, 105479.* https://doi.org/10.1016/j.trc.2025.105479
