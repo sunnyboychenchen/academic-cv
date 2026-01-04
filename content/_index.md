@@ -46,16 +46,12 @@ sections:
                   *(Manuscript line: dual-level exposure + causal heterogeneity)*
 
                 #### 2) Spatiotemporal Heterogeneity & Bayesian Safety Modeling
-                - **Analytic Methods in Accident Research (2025):** Spatiotemporal instability + spatial correlation in injury severity with Bayesian multilevel structure.  
-                  *AMAR, 47, 100406.* https://doi.org/10.1016/j.amar.2025.100406
                 - **Analytic Methods in Accident Research (2025):** Grouped random-parameters Poisson–Lindley with spatial effects for intersection crash analysis.  
                   *AMAR, 47, 100387.* https://doi.org/10.1016/j.amar.2025.100387
-                - **Accident Analysis & Prevention (selected):** Bayesian/heterogeneity-aware safety evaluation under complex roadway and environment contexts.  
-                  *(If you want, list 1–2 specific AAP papers here)*
 
                 #### 3) Crash Type & Injury Severity Joint/Multivariate Modeling
-                - **Analytic Methods in Accident Research / AAP (selected):** Joint modeling for crash type and severity with cross-movement dependence and correlation structure.  
-                  *(Your typical line: multivariate / bivariate Bayesian models for intersection crashes)*
+                - **Analytic Methods in Accident Research (2025):** Joint analysis on pedestrian injury severity across vehicle movements at intersections:
+                Addressing temporal instability and spatial correlations. *AMAR, 47, 100406.* https://doi.org/10.1016/j.amar.2025.100406
 
                 #### 4) ITS Operations, Tunnel Safety & Multi-task Learning
                 - **Accident Analysis & Prevention (2025):** Cross-stitch networks to jointly model tunnel crash severity and congestion duration (safety–mobility coupling).  
