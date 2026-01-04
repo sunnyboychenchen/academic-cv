@@ -59,8 +59,7 @@ sections:
 ### Honors
 - **National Excellent Doctoral Dissertation (Top-ranked)** (2023)
 - **Outstanding Reviewer Award** (ASCE JTE Part A, 2023)
-- **National Scholarship (PhD)** (2022)
-     
+- **National Scholarship (PhD)** (2022)     
         Please reach out to collaborate 😃
     design:
       columns: '1'
