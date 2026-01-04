@@ -35,8 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I'm a postdoctoral researcher in University of Central Florida. I majored in
-AI-driven transportation safety; Multimodal machine learning/ Large Language Models (LLMs); Connected vehicle (CV) trajectory and video analytics; Proactive crash prediction and risk assessment; Causal inference and behavior-aware safety modeling; Safe integration of connected and automated vehicles (CAVs).        
+        I'm a postdoctoral researcher in University of Central Florida. I majored in AI-driven transportation safety; Multimodal machine learning/ Large Language Models (LLMs); Connected vehicle (CV) trajectory and video analytics; Proactive crash prediction and risk assessment; Causal inference and behavior-aware safety modeling; Safe integration of connected and automated vehicles (CAVs).        
         Please reach out to collaborate 😃
     design:
       columns: '1'
