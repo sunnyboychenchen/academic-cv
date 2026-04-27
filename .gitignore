@@ -1,0 +1,8 @@
+.tools/
+public/
+resources/
+.hugo_build.lock
+hugo_stats.json
+qa/
+static/uploads/
+*.log

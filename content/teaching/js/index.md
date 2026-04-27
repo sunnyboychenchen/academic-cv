@@ -1,6 +1,7 @@
 ---
 title: Learn JavaScript
 summary: Easily learn JavaScript in 10 minutes!
+draft: true
 date: 2023-10-24
 type: docs
 math: false

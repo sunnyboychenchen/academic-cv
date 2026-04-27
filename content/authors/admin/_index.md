@@ -1,132 +1,153 @@
 ---
-# Display name
 title: "Chenzhu Wang"
+name_pronunciation:
 
-# Name pronunciation (optional)
-name_pronunciation: 
-
-# Full name (for SEO)
 first_name: Chenzhu
 last_name: Wang
 avatar: avatar11.jpg
 
-# Status emoji
-status:
-  icon: ☕️
-
-# Is this the primary user of the site?
 superuser: true
-
-# Highlight the author in author lists? (true/false)
 highlight_name: true
 
-# Role/position/tagline
-role: Postdoctoral Researcher
+role: "Postdoctoral Researcher"
 
-# Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: SST Lab, University of Central Florida
+  - name: "Smart & Safe Transportation Lab, University of Central Florida"
     url: "https://smartsafe.ucf.edu"
 
-# Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: "chenzhu.wang@ucf.edu"
-    label: "E-mail Me"
-  - icon: brands/github
-    url: "https://github.com/sunnyboychenchen"
-  - icon: brands/linkedin
-    url: "https://www.linkedin.com/in/chenzhu-wang-903853287/"
+    url: "mailto:chenzhu.wang@ucf.edu"
+    label: "Email"
   - icon: academicons/google-scholar
     url: "https://scholar.google.com/citations?hl=en&user=FgKlt4sAAAAJ&view_op=list_works"
   - icon: academicons/orcid
     url: "https://orcid.org/0000-0001-8242-148X"
+  - icon: brands/github
+    url: "https://github.com/sunnyboychenchen"
+  - icon: brands/linkedin
+    url: "https://www.linkedin.com/in/chenzhu-wang-903853287/"
 
 interests:
-  - Artificial Intelligence
-  - Transportation Safety
-  - Connected and Automated Vehicle
+  - AI-driven transportation safety
+  - Connected vehicle trajectory and video analytics
+  - Proactive crash prediction and risk assessment
+  - Causal inference and behavior-aware safety modeling
+  - Safe integration of ADAS, CAVs, and mixed traffic
+  - Multimodal machine learning and large language models
 
 education:
-  - area: PhD Transportation Engineering
-    institution: Southeast University
+  - area: "Ph.D. in Traffic and Transportation Engineering"
+    institution: "Southeast University"
     date_start: 2019-03-18
     date_end: 2023-07-23
     summary: |
-      Thesis on Driving behavior and safety analysis of expressway interchange exit ramp in plateau environment
-      . Supervised by Prof. Jianchuan Cheng and Prof. Fei Chen. Presented papers at TRB and WITC conferences with         the contributions being published in 15 peer-reviewed journals.
-   
+      Dissertation: Driving behavior and safety analysis of expressway interchange exit ramp in plateau environment.
+      Advisors: Prof. Jianchuan Cheng and Prof. Fei Chen.
+  - area: "M.Eng. in Traffic and Transportation Engineering"
+    institution: "Southeast University"
+    date_start: 2015-09-01
+    date_end: 2018-09-01
+    summary: |
+      Thesis: Research on engineering technology and evaluation of life-safety protection for rural roads.
+  - area: "B.Eng. in Traffic and Transportation Engineering"
+    institution: "Southeast University"
+    date_start: 2008-09-01
+    date_end: 2012-06-01
+    summary: |
+      Thesis: Study on the stability of soil slopes in calm water using Abaqus software.
 
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
+work:
+  - position: "Postdoctoral Researcher"
+    company_name: "Smart & Safe Transportation Lab, College of Engineering and Computer Science, University of Central Florida"
+    company_url: "https://smartsafe.ucf.edu"
+    date_start: 2023-09-01
+    date_end:
+    summary: |
+      Research on AI-driven transportation safety, connected-vehicle trajectory and video analytics, causal crash-risk modeling, ADAS/CAV safety evaluation, and multimodal near-miss/crash understanding.
+      Advisor: Prof. Mohamed Abdel-Aty.
+  - position: "Volunteer Teaching Faculty"
+    company_name: "Tibet University"
+    date_start: 2022-05-01
+    date_end: 2022-08-31
+    summary: |
+      Taught Advanced Technologies for Road and Interchange Design and Modern Roadbed and Pavement Materials.
+  - position: "Project Leader"
+    company_name: "China Design Group Co., Ltd."
+    date_start: 2012-07-01
+    date_end: 2019-01-31
+    summary: |
+      Led professional review, roadbed and pavement design, special roadbed and protection engineering, and provincial highway infrastructure projects.
+
 skills:
-  - name: Technical Skills
+  - name: Methods
+    items:
+      - name: Causal inference
+        percent: 95
+        icon: chart-bar
+      - name: Bayesian and random-parameter models
+        percent: 95
+        icon: circle-stack
+      - name: Deep learning
+        percent: 90
+        icon: cpu-chip
+      - name: Multimodal machine learning
+        percent: 88
+        icon: squares-2x2
+  - name: Data and Tools
     items:
       - name: Python
-        description: ''
-        percent: 80
+        percent: 95
         icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
       - name: R
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Powerlift
-        description: ''
-        percent: 60
-        icon: powerlift
-      - name: Photography
-        description: ''
+        percent: 85
+        icon: chart-pie
+      - name: PyTorch / TensorFlow / scikit-learn
+        percent: 90
+        icon: command-line
+      - name: ArcGIS / GeoPandas / Google Earth Engine
+        percent: 85
+        icon: map
+      - name: SUMO / CARLA / VISSIM / Abaqus
         percent: 80
-        icon: camera
+        icon: truck
 
 languages:
   - name: English
-    percent: 100
+    percent: 95
   - name: Chinese
-    percent: 75
+    percent: 100
 
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: "National Excellent Doctoral Dissertation"
+    date: "2023-12-01"
+    awarder: "China Highway and Transportation Society"
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      Ranked 4th among 16 winners selected from nearly 100 doctoral dissertations across China.
+  - title: "Outstanding Reviewer Award"
+    date: "2023-01-01"
+    awarder: "Journal of Transportation Engineering, Part A: Systems, ASCE"
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      Recognized for professional peer-review service.
+  - title: "Best Paper Award"
+    date: "2023-12-19"
+    awarder: "ICP 2023 International Conference on Psychology"
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Best paper award at the ICP 2023 International Conference on Psychology.
+  - title: "National Scholarship for Ph.D. Candidate"
+    date: "2022-01-01"
+    awarder: "Southeast University"
+    summary: |
+      One of 5 winners among 568 students.
+  - title: "Academic Innovation Award"
+    date: "2022-01-01"
+    awarder: "Southeast University"
+    summary: |
+      One of 7 winners among 1,232 students.
 ---
 
 ## About Me
 
-Chenzhu Wang is a postdctoral researcher of transportation engineeing at University of Central Florida. His research interests include enhancing traffic safety in connected and automated vehicle (CAV) systems through AI-driven risk modeling and behavior-based crash analysis. 
+I am a postdoctoral researcher at the University of Central Florida's Smart & Safe Transportation Lab. My research focuses on AI-driven transportation safety, connected-vehicle trajectory and video analytics, proactive crash prediction, causal and behavior-aware safety modeling, and safe integration of ADAS/CAV technologies into mixed traffic.
+
+My work aims to move transportation safety research from after-the-fact crash explanation toward real-time, interpretable, and actionable risk evidence for agencies, infrastructure operators, and emerging mobility systems.

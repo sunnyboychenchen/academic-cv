@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-label="Vulnerable Road Users">
+  <defs>
+    <style>
+      .title{font:700 34px Segoe UI,Arial,sans-serif;fill:#fff}
+      .head{font:700 24px Segoe UI,Arial,sans-serif;fill:#172126}
+      .label{font:400 18px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .small{font:400 15px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .box{fill:#fffefb;stroke:#d9d4c8;stroke-width:2}
+      .grid{stroke:#e8e3d7;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1000" height="620" fill="#faf9f5"/>
+  <rect width="1000" height="92" fill="#445f82"/>
+  <text x="42" y="60" class="title">Vulnerable Road Users</text>
+  <g opacity="0.75">
+    <path class="grid" d="M60 120L-60 620M150 120L30 620M240 120L120 620M330 120L210 620M420 120L300 620M510 120L390 620M600 120L480 620M690 120L570 620M780 120L660 620M870 120L750 620M960 120L840 620"/>
+    <path class="grid" d="M0 140L1000 160M0 212L1000 232M0 284L1000 304M0 356L1000 376M0 428L1000 448M0 500L1000 520M0 572L1000 592"/>
+  </g>
+
+  <rect x="0" y="285" width="1000" height="95" fill="#29302f"/><rect x="440" y="100" width="120" height="520" fill="#29302f"/>
+  <path d="M492 110V570M508 110V570M50 330H950M50 346H950" stroke="#eee4c8" stroke-width="4"/>
+  <g fill="#fffefb"><rect x="448" y="240" width="12" height="38"/><rect x="472" y="240" width="12" height="38"/><rect x="496" y="240" width="12" height="38"/><rect x="520" y="240" width="12" height="38"/></g>
+  <rect x="480" y="170" width="40" height="66" rx="8" fill="#419182"/><rect x="650" y="304" width="72" height="42" rx="8" fill="#e0a036"/>
+  <circle cx="393" cy="255" r="11" fill="#dd5c49"/><path d="M393 266V304M393 284L370 300M393 284L417 300" stroke="#dd5c49" stroke-width="5" fill="none"/>
+  <path d="M480 188C530 220 540 255 540 291" fill="none" stroke="#e0a036" stroke-width="5"/><path d="M635 255C590 270 562 306 562 350" fill="none" stroke="#dd5c49" stroke-width="5"/><circle cx="574" cy="318" r="11" fill="none" stroke="#dd5c49" stroke-width="5"/>
+  <rect x="90" y="450" width="320" height="98" rx="14" class="box"/><text x="112" y="494" class="head">Conflict measures</text><text x="112" y="524" class="label">TTC, PET, turning movement</text>
+  <rect x="596" y="450" width="314" height="98" rx="14" class="box"/><text x="618" y="494" class="head">Severity models</text><text x="618" y="524" class="label">injury outcome + exposure</text>
+</svg>

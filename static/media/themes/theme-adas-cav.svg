@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-label="ADAS, CAV, and Cyber-Safety">
+  <defs>
+    <style>
+      .title{font:700 34px Segoe UI,Arial,sans-serif;fill:#fff}
+      .head{font:700 24px Segoe UI,Arial,sans-serif;fill:#172126}
+      .label{font:400 18px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .small{font:400 15px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .box{fill:#fffefb;stroke:#d9d4c8;stroke-width:2}
+      .grid{stroke:#e8e3d7;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1000" height="620" fill="#faf9f5"/>
+  <rect width="1000" height="92" fill="#6f538b"/>
+  <text x="42" y="60" class="title">ADAS, CAV, and Cyber-Safety</text>
+  <g opacity="0.75">
+    <path class="grid" d="M60 120L-60 620M150 120L30 620M240 120L120 620M330 120L210 620M420 120L300 620M510 120L390 620M600 120L480 620M690 120L570 620M780 120L660 620M870 120L750 620M960 120L840 620"/>
+    <path class="grid" d="M0 140L1000 160M0 212L1000 232M0 284L1000 304M0 356L1000 376M0 428L1000 448M0 500L1000 520M0 572L1000 592"/>
+  </g>
+
+  <g><rect x="110" y="300" width="92" height="50" rx="10" fill="#445f82"/><circle cx="124" cy="354" r="9" fill="#172126"/><circle cx="174" cy="354" r="9" fill="#172126"/><rect x="250" y="300" width="92" height="50" rx="10" fill="#445f82"/><circle cx="264" cy="354" r="9" fill="#172126"/><circle cx="314" cy="354" r="9" fill="#172126"/><rect x="390" y="300" width="92" height="50" rx="10" fill="#445f82"/><circle cx="404" cy="354" r="9" fill="#172126"/><circle cx="454" cy="354" r="9" fill="#172126"/><rect x="530" y="300" width="92" height="50" rx="10" fill="#445f82"/><circle cx="544" cy="354" r="9" fill="#172126"/><circle cx="594" cy="354" r="9" fill="#172126"/><rect x="670" y="300" width="92" height="50" rx="10" fill="#6f538b"/><circle cx="684" cy="354" r="9" fill="#172126"/><circle cx="734" cy="354" r="9" fill="#172126"/></g>
+  <g stroke="#419182" stroke-width="3" fill="none"><path d="M208 325H246"/><path d="M348 325H386"/><path d="M488 325H526"/><path d="M628 325H666"/><path d="M156 300L101 210H211Z"/><path d="M296 300L241 210H351Z"/><path d="M436 300L381 210H491Z"/><path d="M576 300L521 210H631Z"/><path d="M716 300L661 210H771Z"/></g>
+  <rect x="780" y="170" width="140" height="140" rx="20" class="box"/><path d="M805 245C820 206 880 206 895 245" stroke="#6f538b" stroke-width="9" fill="none"/><path d="M850 284V230" stroke="#6f538b" stroke-width="9"/><text x="792" y="336" class="label">resilience</text>
+  <g stroke="#dd5c49" stroke-width="4"><path d="M830 168L872 190M872 168L830 190M775 150L817 172M817 150L775 172M720 132L762 154M762 132L720 154"/></g>
+  <rect x="92" y="430" width="388" height="115" rx="14" class="box"/><text x="114" y="492" class="head">Safety effectiveness</text><text x="114" y="522" class="label">ADAS engagement + real-world risk</text>
+  <rect x="555" y="430" width="355" height="115" rx="14" class="box"/><text x="577" y="492" class="head">Mixed traffic stress test</text><text x="577" y="522" class="label">cyberattack, platoon, lane change</text>
+</svg>

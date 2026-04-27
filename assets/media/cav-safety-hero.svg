@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Abstract connected vehicle safety background">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#132426"/><stop offset="1" stop-color="#334244"/></linearGradient></defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <g opacity="0.28" fill="#0f1c1f"><rect x="-40" y="280" width="72" height="270" rx="4"/><rect x="55" y="308" width="72" height="270" rx="4"/><rect x="150" y="336" width="72" height="270" rx="4"/><rect x="245" y="364" width="72" height="270" rx="4"/><rect x="340" y="280" width="72" height="270" rx="4"/><rect x="435" y="308" width="72" height="270" rx="4"/><rect x="530" y="336" width="72" height="270" rx="4"/><rect x="625" y="364" width="72" height="270" rx="4"/><rect x="720" y="280" width="72" height="270" rx="4"/><rect x="815" y="308" width="72" height="270" rx="4"/><rect x="910" y="336" width="72" height="270" rx="4"/><rect x="1005" y="364" width="72" height="270" rx="4"/><rect x="1100" y="280" width="72" height="270" rx="4"/><rect x="1195" y="308" width="72" height="270" rx="4"/><rect x="1290" y="336" width="72" height="270" rx="4"/><rect x="1385" y="364" width="72" height="270" rx="4"/><rect x="1480" y="280" width="72" height="270" rx="4"/><rect x="1575" y="308" width="72" height="270" rx="4"/><rect x="1670" y="336" width="72" height="270" rx="4"/><rect x="1765" y="364" width="72" height="270" rx="4"/></g>
+  <polygon points="230,900 690,420 910,420 1370,900" fill="#242a29"/>
+  <path d="M690 420L230 900M725 420L265 900M875 420L1335 900M910 420L1370 900" stroke="#419182" stroke-width="5"/>
+  <path d="M765 430V890" stroke="#f0e9d2" stroke-width="7" stroke-dasharray="24 32"/>
+  <g stroke="#5bb29e" stroke-width="2" fill="none" opacity="0.9"><path d="M260 260L455 310L440 545M505 202L668 228M856 210L948 205L1000 360L1256 308L1291 140M1000 360L1140 422M992 714L1284 648M1250 338L1284 648"/></g>
+  <g fill="#5bb29e"><circle cx="455" cy="310" r="8"/><circle cx="440" cy="545" r="8"/><circle cx="505" cy="202" r="8"/><circle cx="1000" cy="360" r="8"/><circle cx="1256" cy="308" r="8"/><circle cx="1250" cy="338" r="8"/></g>
+  <g fill="#e0a036"><circle cx="856" cy="210" r="8"/><circle cx="948" cy="205" r="8"/><circle cx="1140" cy="422" r="8"/><circle cx="1284" cy="648" r="8"/></g>
+  <g fill="#dd5c49"><circle cx="260" cy="260" r="8"/><circle cx="668" cy="228" r="8"/><circle cx="1291" cy="140" r="8"/><circle cx="992" cy="714" r="8"/></g>
+</svg>

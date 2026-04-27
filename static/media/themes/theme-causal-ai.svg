@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-label="Causal and Explainable AI">
+  <defs>
+    <style>
+      .title{font:700 34px Segoe UI,Arial,sans-serif;fill:#fff}
+      .head{font:700 24px Segoe UI,Arial,sans-serif;fill:#172126}
+      .label{font:400 18px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .small{font:400 15px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .box{fill:#fffefb;stroke:#d9d4c8;stroke-width:2}
+      .grid{stroke:#e8e3d7;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1000" height="620" fill="#faf9f5"/>
+  <rect width="1000" height="92" fill="#dd5c49"/>
+  <text x="42" y="60" class="title">Causal and Explainable AI</text>
+  <g opacity="0.75">
+    <path class="grid" d="M60 120L-60 620M150 120L30 620M240 120L120 620M330 120L210 620M420 120L300 620M510 120L390 620M600 120L480 620M690 120L570 620M780 120L660 620M870 120L750 620M960 120L840 620"/>
+    <path class="grid" d="M0 140L1000 160M0 212L1000 232M0 284L1000 304M0 356L1000 376M0 428L1000 448M0 500L1000 520M0 572L1000 592"/>
+  </g>
+
+  <g stroke="#5d676a" stroke-width="3" fill="none"><path d="M256 220L304 192"/><path d="M256 220L334 334"/><path d="M476 170L615 226"/><path d="M506 346L615 264"/><path d="M700 280L788 428"/></g>
+  <g class="box"><rect x="84" y="186" width="172" height="68" rx="12"/><rect x="304" y="136" width="172" height="68" rx="12"/><rect x="334" y="312" width="172" height="68" rx="12"/><rect x="614" y="212" width="172" height="68" rx="12"/></g>
+  <text x="130" y="231" class="label">Exposure</text><text x="352" y="184" class="label">Behavior</text><text x="380" y="358" class="label">Mediator</text><text x="660" y="259" class="label">Crash risk</text>
+  <rect x="96" y="430" width="364" height="118" rx="14" class="box"/><text x="118" y="472" class="head">Causal estimand</text><circle cx="130" cy="491" r="6" fill="#dd5c49"/><text x="148" y="498" class="label">direct effect</text><circle cx="130" cy="514" r="6" fill="#dd5c49"/><text x="148" y="521" class="label">mediated pathway</text><circle cx="130" cy="537" r="6" fill="#dd5c49"/><text x="148" y="544" class="label">counterfactual contrast</text>
+  <rect x="560" y="410" width="350" height="142" rx="14" class="box"/><text x="582" y="454" class="head">Model explanation</text><text x="582" y="480" class="small">speed variance</text><rect x="710" y="468" width="130" height="16" fill="#dd5c49"/><text x="582" y="510" class="small">headway</text><rect x="710" y="498" width="103" height="16" fill="#419182"/><text x="582" y="540" class="small">visibility</text><rect x="710" y="528" width="70" height="16" fill="#e0a036"/>
+</svg>

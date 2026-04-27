@@ -1,12 +1,11 @@
 ---
-title: Publications
+title: Selected Publications
 cms_exclude: true
-
-# View.
 view: citation
 
-# Optional header image (relative to `static/media/` folder).
 banner:
   caption: ''
   image: ''
 ---
+
+Selected papers are organized around connected-vehicle safety analytics, causal and spatial crash modeling, vulnerable-road-user safety, ADAS/CAV evaluation, and multimodal traffic video understanding.

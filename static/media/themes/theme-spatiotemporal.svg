@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-label="Spatiotemporal Heterogeneity">
+  <defs>
+    <style>
+      .title{font:700 34px Segoe UI,Arial,sans-serif;fill:#fff}
+      .head{font:700 24px Segoe UI,Arial,sans-serif;fill:#172126}
+      .label{font:400 18px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .small{font:400 15px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .box{fill:#fffefb;stroke:#d9d4c8;stroke-width:2}
+      .grid{stroke:#e8e3d7;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1000" height="620" fill="#faf9f5"/>
+  <rect width="1000" height="92" fill="#e0a036"/>
+  <text x="42" y="60" class="title">Spatiotemporal Heterogeneity</text>
+  <g opacity="0.75">
+    <path class="grid" d="M60 120L-60 620M150 120L30 620M240 120L120 620M330 120L210 620M420 120L300 620M510 120L390 620M600 120L480 620M690 120L570 620M780 120L660 620M870 120L750 620M960 120L840 620"/>
+    <path class="grid" d="M0 140L1000 160M0 212L1000 232M0 284L1000 304M0 356L1000 376M0 428L1000 448M0 500L1000 520M0 572L1000 592"/>
+  </g>
+
+  <g stroke="#d9d4c8" stroke-width="1"><rect x="80" y="145" width="54" height="54" fill="#f4e9c8"/><rect x="142" y="145" width="54" height="54" fill="#eccb82"/><rect x="204" y="145" width="54" height="54" fill="#e0a036"/><rect x="266" y="145" width="54" height="54" fill="#b97823"/><rect x="80" y="207" width="54" height="54" fill="#eccb82"/><rect x="142" y="207" width="54" height="54" fill="#e0a036"/><rect x="204" y="207" width="54" height="54" fill="#b97823"/><rect x="266" y="207" width="54" height="54" fill="#f4e9c8"/><rect x="80" y="269" width="54" height="54" fill="#e0a036"/><rect x="142" y="269" width="54" height="54" fill="#b97823"/><rect x="204" y="269" width="54" height="54" fill="#f4e9c8"/><rect x="266" y="269" width="54" height="54" fill="#eccb82"/><rect x="80" y="331" width="54" height="54" fill="#b97823"/><rect x="142" y="331" width="54" height="54" fill="#f4e9c8"/><rect x="204" y="331" width="54" height="54" fill="#eccb82"/><rect x="266" y="331" width="54" height="54" fill="#e0a036"/></g>
+  <text x="84" y="410" class="label">spatial crash intensity</text>
+  <rect x="420" y="140" width="490" height="250" rx="14" class="box"/><text x="450" y="190" class="head">Temporal instability</text>
+  <path d="M460 306C500 250 540 235 580 278S660 338 700 274S780 204 860 235" fill="none" stroke="#445f82" stroke-width="5"/>
+  <g fill="#445f82"><circle cx="460" cy="306" r="6"/><circle cx="540" cy="238" r="6"/><circle cx="620" cy="314" r="6"/><circle cx="700" cy="274" r="6"/><circle cx="780" cy="216" r="6"/><circle cx="860" cy="235" r="6"/></g>
+  <text x="424" y="455" class="label">Bayesian hierarchy</text><line x1="650" y1="455" x2="890" y2="455" stroke="#d9d4c8" stroke-width="8"/><line x1="690" y1="455" x2="820" y2="455" stroke="#e0a036" stroke-width="8"/>
+  <text x="424" y="493" class="label">Random parameters</text><line x1="650" y1="493" x2="890" y2="493" stroke="#d9d4c8" stroke-width="8"/><line x1="725" y1="493" x2="830" y2="493" stroke="#e0a036" stroke-width="8"/>
+  <text x="424" y="531" class="label">County / corridor effects</text><line x1="650" y1="531" x2="890" y2="531" stroke="#d9d4c8" stroke-width="8"/><line x1="760" y1="531" x2="850" y2="531" stroke="#e0a036" stroke-width="8"/>
+</svg>

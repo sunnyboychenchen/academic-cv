@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 620" role="img" aria-label="Connected-Vehicle Risk Prediction">
+  <defs>
+    <style>
+      .title{font:700 34px Segoe UI,Arial,sans-serif;fill:#fff}
+      .head{font:700 24px Segoe UI,Arial,sans-serif;fill:#172126}
+      .label{font:400 18px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .small{font:400 15px Segoe UI,Arial,sans-serif;fill:#5d676a}
+      .box{fill:#fffefb;stroke:#d9d4c8;stroke-width:2}
+      .grid{stroke:#e8e3d7;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1000" height="620" fill="#faf9f5"/>
+  <rect width="1000" height="92" fill="#419182"/>
+  <text x="42" y="60" class="title">Connected-Vehicle Risk Prediction</text>
+  <g opacity="0.75">
+    <path class="grid" d="M60 120L-60 620M150 120L30 620M240 120L120 620M330 120L210 620M420 120L300 620M510 120L390 620M600 120L480 620M690 120L570 620M780 120L660 620M870 120L750 620M960 120L840 620"/>
+    <path class="grid" d="M0 140L1000 160M0 212L1000 232M0 284L1000 304M0 356L1000 376M0 428L1000 448M0 500L1000 520M0 572L1000 592"/>
+  </g>
+
+  <polygon points="80,560 390,170 615,170 920,560" fill="#29302f"/>
+  <path d="M458 180L458 552M500 180L500 552M543 180L543 552" stroke="#eee4c8" stroke-width="4"/>
+  <path d="M230 430C310 355 392 312 478 312C564 312 647 338 728 390" fill="none" stroke="#419182" stroke-width="4"/>
+  <g fill="#419182"><circle cx="230" cy="430" r="11"/><circle cx="292" cy="388" r="11"/><circle cx="354" cy="352" r="11"/><circle cx="416" cy="328" r="11"/><circle cx="604" cy="328" r="11"/><circle cx="666" cy="352" r="11"/><circle cx="728" cy="390" r="11"/></g>
+  <g fill="#dd5c49"><circle cx="478" cy="312" r="11"/><circle cx="542" cy="312" r="11"/></g>
+  <rect x="92" y="130" width="218" height="84" rx="14" class="box"/><text x="112" y="172" class="head">CV trajectory</text><text x="112" y="198" class="label">x, y, speed, accel.</text>
+  <rect x="690" y="130" width="220" height="84" rx="14" class="box"/><text x="710" y="172" class="head">Risk output</text><text x="710" y="198" class="label">crash type + lead time</text>
+  <path d="M310 172H685" stroke="#172126" stroke-width="4"/><path d="M690 172l-14-8v16z" fill="#172126"/>
+  <rect x="700" y="466" width="22" height="36" fill="#419182"/><rect x="734" y="442" width="22" height="60" fill="#e0a036"/><rect x="768" y="408" width="22" height="94" fill="#dd5c49"/><rect x="802" y="378" width="22" height="124" fill="#dd5c49"/><rect x="836" y="430" width="22" height="72" fill="#445f82"/>
+  <text x="695" y="532" class="label">spatiotemporal risk score</text>
+</svg>
