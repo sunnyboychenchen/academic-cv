@@ -37,11 +37,12 @@ interests:
   - Multimodal machine learning and large language models
 
 education:
-  - area: "Ph.D. in Traffic and Transportation Engineering"
-    institution: "Southeast University"
-    date_start: 2019-03-18
+  - area: "B.Eng., M.Eng., and Ph.D. in Traffic and Transportation Engineering"
+    institution: "School of Transportation, Southeast University"
+    date_start: 2008-09-01
     date_end: 2023-07-23
     summary: |
+      B.Eng., M.Eng., and Ph.D. studies were completed in the School of Transportation at Southeast University.
       Dissertation: Driving behavior and safety analysis of expressway interchange exit ramp in plateau environment.
       Advisors: Prof. Jianchuan Cheng and Prof. Fei Chen.
 
