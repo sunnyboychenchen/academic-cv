@@ -44,18 +44,6 @@ education:
     summary: |
       Dissertation: Driving behavior and safety analysis of expressway interchange exit ramp in plateau environment.
       Advisors: Prof. Jianchuan Cheng and Prof. Fei Chen.
-  - area: "M.Eng. in Traffic and Transportation Engineering"
-    institution: "Southeast University"
-    date_start: 2015-09-01
-    date_end: 2018-09-01
-    summary: |
-      Thesis: Research on engineering technology and evaluation of life-safety protection for rural roads.
-  - area: "B.Eng. in Traffic and Transportation Engineering"
-    institution: "Southeast University"
-    date_start: 2008-09-01
-    date_end: 2012-06-01
-    summary: |
-      Thesis: Study on the stability of soil slopes in calm water using Abaqus software.
 
 work:
   - position: "Postdoctoral Researcher"
@@ -72,12 +60,6 @@ work:
     date_end: 2022-08-31
     summary: |
       Taught Advanced Technologies for Road and Interchange Design and Modern Roadbed and Pavement Materials.
-  - position: "Project Leader"
-    company_name: "China Design Group Co., Ltd."
-    date_start: 2012-07-01
-    date_end: 2019-01-31
-    summary: |
-      Led professional review, roadbed and pavement design, special roadbed and protection engineering, and provincial highway infrastructure projects.
 
 skills:
   - name: Methods
