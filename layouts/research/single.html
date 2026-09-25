@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article class="wrap detail-page">
+  <a class="back-link" href="{{ "/research/" | relURL }}">{{ partial "cw/icon" "arrow-left" }} Research</a>
+  <header class="detail-header"><p class="eyebrow">Research {{ .Weight | printf "%02d" }}</p><h1>{{ .Title }}</h1><p class="lede">{{ .Params.question }}</p></header>
+  {{ $source := resources.Get (strings.TrimPrefix "/" .Params.cover) }}
+  {{ $figure := $source.Fit "1500x1100 webp q90" }}
+  <figure class="detail-figure"><a href="{{ $source.RelPermalink }}" aria-label="Open full-size research figure"><img src="{{ $figure.RelPermalink }}" alt="{{ .Params.cover_alt }}" width="{{ $figure.Width }}" height="{{ $figure.Height }}"></a><figcaption>{{ .Params.figure_caption }} {{ with .Params.figure_url }}<a href="{{ . }}">Source paper {{ partial "cw/icon" "arrow-up-right" }}</a>{{ end }} <a href="{{ $source.RelPermalink }}">Full-size figure {{ partial "cw/icon" "arrows-pointing-out" }}</a></figcaption></figure>
+  <div class="article-body">{{ .Content }}</div>
+  {{ $strand := .Params.strand }}
+  {{ $papers := where (where site.RegularPages "Section" "publication") "Params.strands" "intersect" (slice $strand) }}
+  <section class="related-section"><h2>Related publications</h2>{{ range (where $papers "Params.status" "published").ByDate.Reverse }}{{ partial "cw/paper" (dict "page" .) }}{{ end }}</section>
+  {{ with where $papers "Params.status" "preprint" }}<section class="related-section"><h2>Preprints</h2>{{ range . }}{{ partial "cw/paper" (dict "page" .) }}{{ end }}</section>{{ end }}
+</article>
+{{ end }}

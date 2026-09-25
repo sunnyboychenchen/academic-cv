@@ -1,10 +1,14 @@
 ---
-title: "Grouped random parameters Poisson-Lindley model with spatial effects addressing crashes at intersections"
+title: "Grouped random parameters Poisson-Lindley model with spatial effects addressing crashes at intersections: Insights from visual environment features and spatiotemporal instability"
 authors:
   - admin
   - Mohamed Abdel-Aty
   - Lei Han
-date: "2025-07-01T00:00:00Z"
+date: "2025-09-01T00:00:00Z"
+status: published
+strands: [mechanisms]
+home_selected: 4
+contribution: "Integrates visual environment features and spatial effects to study intersection crash frequency and variation across locations and periods."
 doi: "10.1016/j.amar.2025.100387"
 publication_types: ["article-journal"]
 publication: "*Analytic Methods in Accident Research*, 47, 100387"
@@ -15,9 +19,7 @@ tags:
   - Random parameters
   - Intersection crashes
 featured: true
-links:
-  - name: DOI
-    url: https://doi.org/10.1016/j.amar.2025.100387
+links: []
 url_pdf: ""
 url_code: ""
 url_dataset: ""
@@ -32,4 +34,3 @@ slides: ""
 ---
 
 This paper is part of the spatiotemporal heterogeneity and Bayesian/statistical safety modeling theme. It studies how intersection crash patterns vary with visual environment features and spatial structure.
-

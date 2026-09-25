@@ -1,0 +1,13 @@
+<article class="research-card strand-{{ .Params.strand }}">
+  <a class="research-image" href="{{ .RelPermalink }}" aria-label="{{ .Title }}">
+    {{ $source := resources.Get (strings.TrimPrefix "/" .Params.cover) }}
+    {{ $cover := $source.Fit "800x500 webp q85" }}
+    <img src="{{ $cover.RelPermalink }}" alt="{{ .Params.cover_alt }}" width="1000" height="620" loading="lazy">
+  </a>
+  <div class="research-card-copy">
+    <p class="eyebrow">Research {{ .Weight | printf "%02d" }}</p>
+    <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+    <p>{{ .Description }}</p>
+    <a class="text-link" href="{{ .RelPermalink }}">Explore research {{ partial "cw/icon" "arrow-right" }}</a>
+  </div>
+</article>

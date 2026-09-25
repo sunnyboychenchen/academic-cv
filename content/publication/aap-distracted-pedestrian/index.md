@@ -1,11 +1,13 @@
 ---
-title: "Safety analysis of pedestrians distracted by mobile phones at street crossings"
+title: "Safety analysis of pedestrians distracted by mobile phones at street crossings: Field study in Nanjing"
 authors:
   - admin
   - Mingyu Hou
   - Said M. Easa
   - Jianchuan Cheng
-date: "2024-05-01T00:00:00Z"
+date: "2024-06-01T00:00:00Z"
+status: published
+strands: [mechanisms]
 doi: "10.1016/j.aap.2024.107563"
 publication_types: ["article-journal"]
 publication: "*Accident Analysis and Prevention*, 200, 107563"
@@ -16,13 +18,10 @@ tags:
   - Human factors
   - Field study
 featured: true
-links:
-  - name: DOI
-    url: https://doi.org/10.1016/j.aap.2024.107563
+links: []
 projects:
   - causal-spatial-safety
 slides: ""
 ---
 
 This paper is part of the vulnerable-road-user safety theme, using behavioral and field evidence to understand distraction risk at street crossings.
-

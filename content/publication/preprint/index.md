@@ -1,20 +1,24 @@
 ---
-title: "SAVeD: A first-person social media dataset for ADAS-equipped vehicle near-miss and crash event analysis"
+title: "SAVeD: A First-Person Social Media Video Dataset for ADAS-equipped vehicle Near-Miss and Crash Event Analyses"
 authors:
   - Shaoyan Zhai
   - Mohamed Abdel-Aty
   - admin
-date: "2026-01-01T00:00:00Z"
+  - Rodrigo Vena Garcia
+date: "2025-12-19T00:00:00Z"
+status: preprint
+strands: [technology]
+preprint_url: https://arxiv.org/abs/2512.17724
 doi: ""
 publication_types: ["article"]
-publication: "Scientific Data, under review"
-publication_short: "Under review"
+publication: "*arXiv*, 2512.17724"
+publication_short: "Preprint"
 summary: "A multimodal dataset project for first-person ADAS near-miss and crash event understanding."
 tags:
   - ADAS
   - Multimodal video
   - Dataset
-featured: true
+featured: false
 links: []
 url_pdf: ""
 url_code: ""
@@ -30,4 +34,3 @@ slides: ""
 ---
 
 This work anchors the multimodal traffic video and ADAS safety theme. It supports event parsing, near-miss/crash understanding, and future counterfactual safety analysis.
-

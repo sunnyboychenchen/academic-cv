@@ -1,13 +1,16 @@
 main:
-  - name: Research
-    url: "/#research"
+  - name: Home
+    url: /
     weight: 10
-  - name: Publications
-    url: "/#publications"
+  - name: Research
+    url: /research/
     weight: 20
-  - name: Experience
-    pageRef: "/experience"
+  - name: Publications
+    url: /publication/
     weight: 30
-  - name: Projects
-    pageRef: "/projects"
+  - name: About
+    url: /about/
     weight: 40
+  - name: Contact
+    url: /#contact
+    weight: 50

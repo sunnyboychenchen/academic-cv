@@ -5,6 +5,8 @@ authors:
   - Mohamed Abdel-Aty
   - Lei Han
 date: "2025-04-01T00:00:00Z"
+status: published
+strands: [proactive, mechanisms]
 doi: "10.1016/j.aap.2025.107942"
 publication_types: ["article-journal"]
 publication: "*Accident Analysis and Prevention*, 213, 107942"
@@ -15,13 +17,10 @@ tags:
   - Multi-task learning
   - Congestion duration
 featured: true
-links:
-  - name: DOI
-    url: https://doi.org/10.1016/j.aap.2025.107942
+links: []
 projects:
   - speed-management-moes
 slides: ""
 ---
 
 This paper sits at the intersection of safety and operations: the model learns shared and task-specific information for injury severity and congestion duration.
-

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" data-wc-theme-default="light">
+  {{ partial "site_head" . }}
+  <body class="academic-site" id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header page-header">
+      <div class="wrap header-inner">
+        <a class="site-name" href="{{ "/" | relURL }}">Chenzhu Wang<span>Transportation safety research</span></a>
+        <nav class="site-nav" aria-label="Main navigation">
+          {{ range site.Menus.main }}
+            {{ $active := or (and (eq .URL "/") $.IsHome) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) }}
+            <a href="{{ .URL | relURL }}" {{ if $active }}aria-current="page"{{ end }}>{{ .Name }}</a>
+          {{ end }}
+        </nav>
+      </div>
+    </header>
+    <main id="main" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner"><p>&copy; {{ now.Year }} Chenzhu Wang</p><a href="mailto:chenzhu.wang@ucf.edu">chenzhu.wang@ucf.edu</a><a href="#top">Back to top {{ partial "cw/icon" "arrow-up" }}</a></div>
+    </footer>
+    {{ $script := resources.Get "js/site.js" | minify | fingerprint }}
+    <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
+  </body>
+</html>

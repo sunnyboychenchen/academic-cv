@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article class="wrap detail-page publication-detail">
+  <a class="back-link" href="{{ "/publication/" | relURL }}">{{ partial "cw/icon" "arrow-left" }} Publications</a>
+  <header class="detail-header"><p class="eyebrow">{{ .Params.status | title }} &middot; {{ .Date.Year }}</p><h1>{{ .Title }}</h1><p class="paper-authors">{{ range $i, $author := .Params.authors }}{{ if $i }}, {{ end }}{{ if eq $author "admin" }}<strong>Chenzhu Wang</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p><p class="paper-venue">{{ .Params.publication | markdownify }}</p></header>
+  <div class="link-row">{{ with .Params.doi }}<a class="primary-link" href="https://doi.org/{{ . }}">Read publication {{ partial "cw/icon" "arrow-up-right" }}</a>{{ end }}{{ with .Params.preprint_url }}<a class="primary-link" href="{{ . }}">Read preprint on arXiv {{ partial "cw/icon" "arrow-up-right" }}</a>{{ end }}{{ with .Params.doi }}<a href="https://api.crossref.org/works/{{ . }}/transform/application/x-bibtex">BibTeX {{ partial "cw/icon" "arrow-down-tray" }}</a>{{ end }}</div>
+  <div class="article-body"><h2>Contribution</h2><p class="lede">{{ .Params.contribution | default .Params.summary }}</p>{{ .Content }}</div>
+  <section class="related-section"><h2>Research context</h2><div class="context-links">{{ $strands := .Params.strands }}{{ range (where site.RegularPages "Section" "research").ByWeight }}{{ if in $strands .Params.strand }}<a href="{{ .RelPermalink }}">{{ .Title }} {{ partial "cw/icon" "arrow-right" }}</a>{{ end }}{{ end }}</div></section>
+</article>
+{{ end }}

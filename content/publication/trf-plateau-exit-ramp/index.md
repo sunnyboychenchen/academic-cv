@@ -5,7 +5,9 @@ authors:
   - Said M. Easa
   - Fei Chen
   - Jianchuan Cheng
-date: "2023-11-01T00:00:00Z"
+date: "2023-10-01T00:00:00Z"
+status: published
+strands: [mechanisms]
 doi: "10.1016/j.trf.2023.09.016"
 publication_types: ["article-journal"]
 publication: "*Transportation Research Part F: Traffic Psychology and Behaviour*, 98, 318-336"
@@ -16,9 +18,7 @@ tags:
   - Plateau driving
   - Exit ramps
 featured: false
-links:
-  - name: DOI
-    url: https://doi.org/10.1016/j.trf.2023.09.016
+links: []
 projects:
   - causal-spatial-safety
 slides: ""

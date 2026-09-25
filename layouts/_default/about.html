@@ -1,0 +1,12 @@
+{{ define "main" }}
+{{ $author := site.GetPage "/authors/admin" }}
+<div class="wrap about-page">
+  <header class="page-intro"><p class="eyebrow">About</p><h1>Chenzhu Wang</h1><div class="lede">{{ .Content }}</div><div class="link-row"><a href="https://orcid.org/0000-0001-8242-148X">ORCID {{ partial "cw/icon" "arrow-up-right" }}</a><a href="https://scholar.google.com/citations?user=FgKlt4sAAAAJ&amp;hl=en">Google Scholar {{ partial "cw/icon" "arrow-up-right" }}</a></div></header>
+  <section class="about-section"><h2>Academic appointments</h2><div>{{ range $author.Params.work }}<article class="timeline-item"><p class="eyebrow">{{ time.Format "Jan 2006" .date_start }} - {{ with .date_end }}{{ time.Format "Jan 2006" . }}{{ else }}Present{{ end }}</p><h3>{{ .position }}</h3><p class="institution">{{ .company_name }}</p><div>{{ .summary | markdownify }}</div></article>{{ end }}</div></section>
+  <section class="about-section"><h2>Education</h2><div>{{ range $author.Params.education }}<article class="timeline-item"><p class="eyebrow">Ph.D. awarded 2023</p><h3>{{ .area }}</h3><p class="institution">{{ .institution }}</p><p>Dissertation: Driving behavior and safety analysis of expressway interchange exit ramp in plateau environment.</p><p>Advisors: Prof. Jianchuan Cheng and Prof. Fei Chen.</p></article>{{ end }}</div></section>
+  <section class="about-section"><h2>Methods &amp; tools</h2><div class="skills-columns">{{ range $author.Params.skills }}<div><h3>{{ .name }}</h3><ul>{{ range .items }}<li>{{ .name }}</li>{{ end }}</ul></div>{{ end }}</div></section>
+  <section class="about-section"><h2>Selected recognition</h2><div>{{ range $author.Params.awards }}<article class="award-item"><span>{{ time.Format "2006" .date }}</span><div><h3>{{ .title }}</h3><p>{{ .awarder }}</p></div></article>{{ end }}</div></section>
+  <section class="about-section"><h2>Academic service</h2><div><p>Peer reviewer for journals in transportation engineering and safety. Recipient of the 2023 Outstanding Reviewer Award from the ASCE Journal of Transportation Engineering, Part A: Systems.</p><p class="languages"><strong>Languages</strong> English and Chinese</p></div></section>
+</div>
+{{ partial "cw/contact" . }}
+{{ end }}

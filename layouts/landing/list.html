@@ -1,0 +1,21 @@
+{{ define "main" }}
+{{ $author := site.GetPage "/authors/admin" }}
+<section class="intro wrap">
+  <div class="identity">
+    {{ with $author.Resources.GetMatch "avatar11.jpg" }}{{ $portrait := .Fit "360x440 webp" }}<img class="portrait" src="{{ $portrait.RelPermalink }}" alt="Chenzhu Wang" width="{{ $portrait.Width }}" height="{{ $portrait.Height }}" fetchpriority="high">{{ end }}
+    <div><p class="eyebrow">{{ $author.Params.role }}</p><h1>Chenzhu Wang<span class="degree">, Ph.D.</span></h1><p class="affiliation">University of Central Florida<br><a href="https://smartsafe.ucf.edu">Smart &amp; Safe Transportation Lab {{ partial "cw/icon" "arrow-up-right" }}</a></p></div>
+  </div>
+  <h2 class="intro-title">{{ .Params.tagline }}</h2>
+  <p class="intro-copy">{{ .Params.intro }}</p>
+  <div class="link-row"><a class="primary-link" href="{{ "/publication/" | relURL }}">Selected publications {{ partial "cw/icon" "arrow-right" }}</a><a href="https://scholar.google.com/citations?user=FgKlt4sAAAAJ&amp;hl=en">Google Scholar {{ partial "cw/icon" "arrow-up-right" }}</a><a href="mailto:chenzhu.wang@ucf.edu">Email {{ partial "cw/icon" "envelope" }}</a></div>
+</section>
+<section id="research" class="section research-band">
+  <div class="wrap"><div class="section-heading"><div><p class="eyebrow">Research</p><h2>Three questions for safer mobility</h2></div><a class="text-link" href="{{ "/research/" | relURL }}">All research {{ partial "cw/icon" "arrow-right" }}</a></div>
+  <div class="research-grid">{{ range (where site.RegularPages "Section" "research").ByWeight }}{{ partial "cw/research-card" . }}{{ end }}</div></div>
+</section>
+<section id="publications" class="section wrap">
+  <div class="section-heading"><div><p class="eyebrow">Selected publications</p><h2>Recent contributions</h2></div><a class="text-link" href="{{ "/publication/" | relURL }}">Publication list {{ partial "cw/icon" "arrow-right" }}</a></div>
+  <div class="paper-list">{{ range sort (where (where (where site.RegularPages "Section" "publication") "Params.status" "published") "Params.home_selected" "gt" 0) "Params.home_selected" }}{{ partial "cw/paper" (dict "page" .) }}{{ end }}</div>
+</section>
+{{ partial "cw/contact" . }}
+{{ end }}

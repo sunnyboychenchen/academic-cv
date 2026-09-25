@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="wrap publications-page" data-publications>
+  <header class="page-intro"><p class="eyebrow">Publications</p><h1>Selected publications</h1><p class="lede">Published research on crash risk, injury mechanisms, and emerging vehicle technologies.</p><a class="text-link" href="https://scholar.google.com/citations?user=FgKlt4sAAAAJ&amp;hl=en">Complete publication record on Google Scholar {{ partial "cw/icon" "arrow-up-right" }}</a></header>
+  <form class="publication-filters" role="search" aria-label="Filter publications" hidden>
+    <div class="filter-search"><label for="paper-search">Search publications</label><input id="paper-search" type="search" placeholder="Title, author, keyword" autocomplete="off"></div>
+    <div><label for="paper-strand">Research area</label><select id="paper-strand"><option value="">All research areas</option>{{ range (where site.RegularPages "Section" "research").ByWeight }}<option value="{{ .Params.strand }}">{{ .Title }}</option>{{ end }}</select></div>
+    <div><label for="paper-year">Year</label><select id="paper-year"><option value="">All years</option>{{ range (where site.RegularPages "Section" "publication").GroupByDate "2006" }}<option value="{{ .Key }}">{{ .Key }}</option>{{ end }}</select></div>
+    <button type="reset" class="reset-button" title="Reset filters" aria-label="Reset filters">{{ partial "cw/icon" "arrow-path" }}</button>
+  </form>
+  <p class="filter-count" aria-live="polite" aria-atomic="true" hidden></p>
+  <section class="publication-section" data-paper-section><h2>Published articles</h2><div class="paper-list">{{ range (where (where site.RegularPages "Section" "publication") "Params.status" "published").ByDate.Reverse }}{{ partial "cw/paper" (dict "page" .) }}{{ end }}</div></section>
+  <section class="publication-section" data-paper-section><h2>Preprints</h2><p class="section-note">Preprints are listed separately from peer-reviewed publications.</p>{{ range (where (where site.RegularPages "Section" "publication") "Params.status" "preprint").ByDate.Reverse }}{{ partial "cw/paper" (dict "page" .) }}{{ end }}</section>
+  <p class="empty-state" hidden>No publications match these filters.</p>
+  <section class="ongoing-note"><h2>Ongoing research</h2><p>Current directions include connected-vehicle cyber-safety and multimodal event understanding with vision-language and generative models.</p><a class="text-link" href="{{ "/research/emerging-technologies/" | relURL }}">Current research {{ partial "cw/icon" "arrow-right" }}</a></section>
+</div>
+{{ end }}

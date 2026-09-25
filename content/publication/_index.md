@@ -8,4 +8,4 @@ banner:
   image: ''
 ---
 
-Selected papers are organized around connected-vehicle safety analytics, causal and spatial crash modeling, vulnerable-road-user safety, ADAS/CAV evaluation, and multimodal traffic video understanding.
+Selected publications on proactive crash risk prediction, crash and injury mechanisms, and the safety of emerging vehicle technologies.
