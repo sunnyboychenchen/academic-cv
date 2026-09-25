@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ $author := site.GetPage "/authors/admin" }}
-<section class="intro wrap">
+<section id="about" class="intro wrap">
   <div class="identity">
     {{ with $author.Resources.GetMatch "avatar11.jpg" }}{{ $portrait := .Fit "360x440 webp" }}<img class="portrait" src="{{ $portrait.RelPermalink }}" alt="Chenzhu Wang" width="{{ $portrait.Width }}" height="{{ $portrait.Height }}" fetchpriority="high">{{ end }}
     <div><p class="eyebrow">{{ $author.Params.role }}</p><h1>Chenzhu Wang<span class="degree">, Ph.D.</span></h1><p class="affiliation">University of Central Florida<br><a href="https://smartsafe.ucf.edu">Smart &amp; Safe Transportation Lab {{ partial "cw/icon" "arrow-up-right" }}</a></p></div>

@@ -26,12 +26,18 @@ const checks = [];
       const metrics = await page.evaluate(() => ({
         h1: [...document.querySelectorAll('main h1')].map(x=>x.textContent),
         overflow: document.documentElement.scrollWidth > innerWidth + 1,
+        clippedSelects: [...document.querySelectorAll('select')].filter(select => {
+          const ctx = document.createElement('canvas').getContext('2d');
+          ctx.font = getComputedStyle(select).font;
+          return [...select.options].some(option => ctx.measureText(option.text).width + 44 > select.clientWidth);
+        }).map(select => select.id),
         images: [...document.querySelectorAll('main img')].map(img=>({src:img.currentSrc,loaded:img.complete&&img.naturalWidth>0})),
         text: document.querySelector('main').innerText,
         links:[...document.querySelectorAll('a[href]')].map(a=>a.href)
       }));
       assert.equal(metrics.h1.length,1,'One H1: '+route);
       assert.equal(metrics.overflow,false,'Horizontal overflow: '+viewport.width+route);
+      assert.equal(metrics.clippedSelects.length,0,'Clipped select options: '+viewport.width+route);
       assert(metrics.images.every(i=>i.loaded),'Broken image: '+route);
       assert(!metrics.text.includes('Project Leader'),'Removed experience returned');
       assert(!/September 2008|September 2015|1 min read|Download CV|Research Snapshot/.test(metrics.text),'Legacy UI: '+route);

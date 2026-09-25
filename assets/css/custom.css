@@ -118,7 +118,7 @@ html { scroll-behavior:smooth; scroll-padding-top:100px; color-scheme:light; }
 .languages { margin-top:25px !important; color:var(--muted); }
 .languages strong { color:var(--ink); margin-right:16px; }
 .publications-page { padding-bottom:60px; }
-.publication-filters { display:grid; grid-template-columns:minmax(180px,1.25fr) minmax(200px,1fr) 115px 44px; gap:14px; align-items:end; border-block:1px solid var(--line); padding-block:20px; }
+.publication-filters { display:grid; grid-template-columns:minmax(180px,1.25fr) minmax(200px,1fr) 135px 44px; gap:14px; align-items:end; border-block:1px solid var(--line); padding-block:20px; }
 .publication-filters label { display:block; margin-bottom:7px; font-size:12px; font-weight:600; }
 .publication-filters input,.publication-filters select { font:inherit; font-size:14px; height:44px; border:1px solid #aab8b2; background:white; color:var(--ink); border-radius:4px; width:100%; padding:8px 11px; min-width:0; }
 .publication-filters select { padding-right:28px; }
@@ -182,8 +182,8 @@ html { scroll-behavior:smooth; scroll-padding-top:100px; color-scheme:light; }
   .article-body h2 { font-size:23px; }
   .about-section { grid-template-columns:1fr; gap:22px; padding-block:28px; }
   .skills-columns { grid-template-columns:1fr; gap:15px; }
-  .publication-filters { grid-template-columns:minmax(0,1fr) 105px 44px; gap:12px; }
-  .filter-search { grid-column:1 / -1; }
+  .publication-filters { grid-template-columns:minmax(0,1fr) 44px; gap:12px; }
+  .filter-search,.filter-strand { grid-column:1 / -1; }
   .publication-filters input,.publication-filters select { font-size:16px; }
 }
 @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }

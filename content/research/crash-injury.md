@@ -2,6 +2,7 @@
 title: Crash and Injury Mechanisms
 weight: 2
 strand: mechanisms
+filter_label: Crash and injury
 description: "Why do similar traffic situations lead to different safety outcomes? I study behavioral and roadway mechanisms, with particular attention to spatial variation and vulnerable road users."
 summary: "Explaining crash and injury outcomes through human behavior, roadway context, causal analysis, and spatiotemporal heterogeneity."
 question: "How do roadway, behavioral, and environmental factors shape crashes and injuries across contexts?"

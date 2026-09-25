@@ -2,6 +2,7 @@
 title: Safety of Emerging Vehicle Technologies
 weight: 3
 strand: technology
+filter_label: Vehicle technologies
 description: "When do advanced vehicle technologies improve safety, and where do risks remain? I evaluate ADAS and connected vehicles, alongside ongoing work on video-based event understanding."
 summary: "Safety evaluation of ADAS and connected vehicles, with ongoing work on cyber-risk and multimodal near-miss and crash analysis."
 question: "Under what conditions do emerging vehicle technologies reduce risk, and when might they introduce new vulnerabilities?"

@@ -2,6 +2,7 @@
 title: Proactive Crash Risk Prediction and Prevention
 weight: 1
 strand: proactive
+filter_label: Proactive safety
 description: "Can we identify risk before a crash occurs? I connect vehicle trajectories, risky-driving events, and traffic states to support earlier, more targeted safety interventions."
 summary: "Anticipating crash risk using connected-vehicle trajectories, traffic states, and behavior-aware models."
 question: "How can we identify risk before crashes occur and translate that evidence into prevention?"
