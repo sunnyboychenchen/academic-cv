@@ -1,7 +1,7 @@
 ---
 title: Chenzhu Wang
-summary: "Transportation safety research by Chenzhu Wang: proactive crash risk prediction, crash and injury mechanisms, and the safety of emerging vehicle technologies."
+summary: "Chenzhu Wang's research on transportation safety, autonomous driving, connected vehicles, human factors, and multimodal traffic scene understanding."
 type: landing
-tagline: "Understanding and reducing roadway risk."
-intro: "My research examines how traffic behavior, roadway conditions, and vehicle technologies shape crash risk and injury outcomes. I combine connected-vehicle data, traffic video, and crash records with statistical modeling and machine learning to support proactive safety assessment."
+tagline: "Transportation Safety. Autonomous Driving. Multimodal AI."
+intro: "I study how human behavior, roadway conditions, and vehicle technologies shape crash risk and injury outcomes. My work combines crash records, connected-vehicle trajectories, traffic video, and simulation, linking data-driven methods with behavioral and physical mechanisms. Current research includes safety-critical recovery in automated driving, connected-vehicle resilience, and multimodal understanding of near-miss and crash events."
 ---

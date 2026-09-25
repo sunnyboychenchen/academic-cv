@@ -10,5 +10,6 @@
   {{ $papers := where (where site.RegularPages "Section" "publication") "Params.strands" "intersect" (slice $strand) }}
   <section class="related-section"><h2>Related publications</h2>{{ range (where $papers "Params.status" "published").ByDate.Reverse }}{{ partial "cw/paper" (dict "page" .) }}{{ end }}</section>
   {{ with where $papers "Params.status" "preprint" }}<section class="related-section"><h2>Preprints</h2>{{ range . }}{{ partial "cw/paper" (dict "page" .) }}{{ end }}</section>{{ end }}
+  {{ with where $papers "Params.status" "submitted" }}<section class="related-section"><h2>Submitted manuscripts</h2><p class="section-note">Ongoing work submitted for review.</p>{{ range .ByDate.Reverse }}{{ partial "cw/paper" (dict "page" .) }}{{ end }}</section>{{ end }}
 </article>
 {{ end }}

@@ -8,7 +8,7 @@
         <a class="site-name" href="{{ "/" | relURL }}">Chenzhu Wang<span>Transportation safety research</span></a>
         <nav class="site-nav" aria-label="Main navigation">
           {{ range site.Menus.main }}
-            {{ $active := or (and (eq .URL "/") $.IsHome) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) }}
+            {{ $active := or (and (eq .URL "/") $.IsHome) (and (ne .URL "/") (hasPrefix $.RelPermalink .URL)) (and (eq .URL "/projects/") (eq $.Section "project")) }}
             <a href="{{ .URL | relURL }}" {{ if $active }}aria-current="page"{{ end }}>{{ .Name }}</a>
           {{ end }}
         </nav>

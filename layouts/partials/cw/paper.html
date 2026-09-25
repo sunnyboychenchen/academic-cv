@@ -1,10 +1,10 @@
 {{ $paper := .page }}
-<article class="paper" data-paper data-strands="{{ delimit $paper.Params.strands " " }}" data-year="{{ $paper.Date.Year }}">
-  <div class="paper-side"><span class="paper-year">{{ $paper.Date.Year }}</span><span class="status {{ if eq $paper.Params.status "preprint" }}status-preprint{{ end }}">{{ $paper.Params.status | title }}</span></div>
+<article class="paper" data-paper data-strands="{{ delimit $paper.Params.strands " " }}" data-year="{{ $paper.Date.Year }}" data-status="{{ $paper.Params.status }}">
+  <div class="paper-side"><span class="paper-year">{{ $paper.Date.Year }}</span><span class="status status-{{ $paper.Params.status }}">{{ $paper.Params.status | title }}</span></div>
   <div class="paper-copy">
     <h3><a href="{{ $paper.RelPermalink }}">{{ $paper.Title }}</a></h3>
-    <p class="paper-authors">{{ range $i, $author := $paper.Params.authors }}{{ if $i }}, {{ end }}{{ if eq $author "admin" }}<strong>Chenzhu Wang</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p>
-    <p class="paper-venue">{{ $paper.Params.publication | markdownify }}</p>
+    {{ with $paper.Params.authors }}<p class="paper-authors">{{ range $i, $author := . }}{{ if $i }}, {{ end }}{{ if eq $author "admin" }}<strong>Chenzhu Wang</strong>{{ else }}{{ $author }}{{ end }}{{ end }}</p>{{ end }}
+    {{ with $paper.Params.publication }}<p class="paper-venue">{{ . | markdownify }}</p>{{ end }}
     <p class="paper-contribution">{{ $paper.Params.contribution | default $paper.Params.summary }}</p>
     <div class="paper-links"><a href="{{ $paper.RelPermalink }}">Details {{ partial "cw/icon" "arrow-right" }}</a>{{ with $paper.Params.doi }}<a href="https://doi.org/{{ . }}">DOI {{ partial "cw/icon" "arrow-up-right" }}</a>{{ end }}{{ with $paper.Params.preprint_url }}<a href="{{ . }}">arXiv {{ partial "cw/icon" "arrow-up-right" }}</a>{{ end }}</div>
   </div>

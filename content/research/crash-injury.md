@@ -1,34 +1,31 @@
 ---
-title: Crash and Injury Mechanisms
+title: Crash Mechanisms, Human Factors, and Roadway Design
 weight: 2
 strand: mechanisms
-filter_label: Crash and injury
-description: "Why do similar traffic situations lead to different safety outcomes? I study behavioral and roadway mechanisms, with particular attention to spatial variation and vulnerable road users."
-summary: "Explaining crash and injury outcomes through human behavior, roadway context, causal analysis, and spatiotemporal heterogeneity."
-question: "How do roadway, behavioral, and environmental factors shape crashes and injuries across contexts?"
+filter_label: Human factors & design
+description: "How do people and roads shape safety? I examine injury mechanisms, driver perception, vulnerable road users, and context-sensitive roadway design."
+summary: "Connecting crash and injury mechanisms with driver behavior, human factors, roadway geometry, and environmental context."
+question: "How do human behavior, roadway design, and environmental conditions shape crash risk and injury outcomes?"
 cover: /media/research/intersection-network.png
 cover_alt: "Florida study area showing county boundaries, roadway links, and intersection locations."
 figure_caption: "Intersection locations and spatial context in the grouped random-parameters Poisson-Lindley study."
-figure_source: "Grouped random parameters Poisson-Lindley model with spatial effects"
 figure_url: https://doi.org/10.1016/j.amar.2025.100387
 aliases: ["/project/causal-spatial-safety/"]
 ---
-## Beyond average effects
+## Crash and injury mechanisms
 
-A safety relationship observed in one location or period may not hold elsewhere. My work examines how crash frequency and injury severity vary with roadway context, traffic behavior, time, and space.
+Safety relationships can change across road users, locations, and periods. My work uses spatial models, temporal analysis, and random-parameter approaches to examine this heterogeneity, rather than assuming one average effect transfers to every setting.
 
-I use causal and statistical models to study these differences, distinguish patterns across road-user groups, and develop context-sensitive explanations of safety outcomes.
+[Intersection crash frequency](/publication/conference-paper/) and [pedestrian injury severity across vehicle movements](/publication/amar-pedestrian-injury/) are complementary examples.
 
-## People and places
+## Human factors and vulnerable road users
 
-Pedestrian safety is an important part of this work. Studies of vehicle movements at intersections and mobile-phone distraction connect crash records with behavioral and field evidence. Earlier research on plateau driving examines how environmental context affects driver perception and reaction.
+Behavioral evidence helps explain how risks develop. I study driver perception and reaction, workload, pedestrian distraction, and vehicle-pedestrian interactions.
 
-## Data and methods
+The [vehicle-pedestrian interactions review](/publication/trr-vehicle-pedestrian-review/) connects crash analysis with conflict assessment. Related [intersection interaction research](/publication/trf-right-turn-pedestrian/) examines right-turning vehicles and pedestrians using conflict and crash datasets.
 
-- Crash and injury records, behavioral observations, and visual environment features.
-- Bayesian and random-parameter models for unobserved heterogeneity.
-- Spatial effects, temporal instability, joint outcome modeling, and causal mediation.
+## Roadway design and environmental context
 
-## Implications for safety decisions
+My earlier engineering practice and plateau-road research inform a continuing interest in how physical road conditions interact with human capabilities. Studies of [perception-reaction time](/publication/trf-plateau-exit-ramp/) and [minimum horizontal curve radius](/publication/plateau-curve-design/) link behavioral and psychophysiological evidence with design questions.
 
-The aim is to identify which factors matter for particular road users and settings, rather than assume that a single average effect is transferable to every location.
+**Methods:** causal analysis, Bayesian and random-parameter models, spatial effects, behavioral measurement, and psychophysiological assessment.

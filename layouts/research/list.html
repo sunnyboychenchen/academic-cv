@@ -2,5 +2,6 @@
 <section class="page-intro wrap"><p class="eyebrow">Research</p><h1>From traffic data to safety evidence.</h1><div class="lede">{{ .Content }}</div></section>
 <section class="section research-band"><div class="wrap research-grid">{{ range .RegularPages.ByWeight }}{{ partial "cw/research-card" . }}{{ end }}</div></section>
 <section class="section wrap methods-section"><p class="eyebrow">Methodological foundation</p><h2>Different questions. Connected methods.</h2><p class="lede">My work brings together causal inference, Bayesian and random-parameter modeling, spatiotemporal analysis, and multimodal machine learning. Methods are chosen around the safety question and the available evidence.</p><a class="text-link" href="{{ "/publication/" | relURL }}">Related publications {{ partial "cw/icon" "arrow-right" }}</a></section>
+{{ partial "cw/resources" . }}
 {{ partial "cw/contact" . }}
 {{ end }}

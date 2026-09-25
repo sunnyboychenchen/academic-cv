@@ -1,0 +1,8 @@
+{{ define "main" }}
+<article class="wrap detail-page">
+  <a class="back-link" href="{{ "/projects/" | relURL }}">{{ partial "cw/icon" "arrow-left" }} Projects</a>
+  <header class="detail-header"><p class="eyebrow">{{ .Params.status }} &middot; {{ .Params.year }}</p><h1>{{ .Title }}</h1><p class="lede">{{ .Params.summary }}</p></header>
+  <dl class="project-facts"><div><dt>My role</dt><dd>{{ .Params.role }}</dd></div><div><dt>Agency</dt><dd>{{ .Params.agency }}</dd></div>{{ with .Params.funding }}<div><dt>{{ if eq $.Params.group "pi-pending" }}Proposed budget{{ else }}Total project funding{{ end }}</dt><dd>{{ . }}</dd></div>{{ end }}{{ with .Params.principal_investigator }}<div><dt>Principal Investigator</dt><dd>{{ . }}</dd></div>{{ end }}</dl>
+  <div class="article-body">{{ .Content }}</div>
+</article>
+{{ end }}

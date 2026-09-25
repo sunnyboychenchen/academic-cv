@@ -1,6 +1,5 @@
 ---
 title: Research
-summary: "Three complementary lines of transportation safety research: anticipating crashes, understanding injury mechanisms, and evaluating emerging vehicle technologies."
-aliases: ["/projects/", "/project/"]
+summary: "Four connected research areas spanning proactive risk prediction, human factors and roadway design, automated vehicle safety, and multimodal traffic scene understanding."
 ---
-I study transportation safety from three complementary perspectives: anticipating risk, understanding its mechanisms, and evaluating the technologies that change how we drive.
+My research connects four questions: how to anticipate roadway risk, explain its behavioral and physical mechanisms, evaluate vehicle technologies, and understand safety-critical events through multimodal evidence.

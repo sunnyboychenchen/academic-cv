@@ -7,7 +7,8 @@ authors:
   - Rodrigo Vena Garcia
 date: "2025-12-19T00:00:00Z"
 status: preprint
-strands: [technology]
+strands: [multimodal, technology]
+primary_strand: multimodal
 preprint_url: https://arxiv.org/abs/2512.17724
 doi: ""
 publication_types: ["article"]
@@ -34,3 +35,5 @@ slides: ""
 ---
 
 This work anchors the multimodal traffic video and ADAS safety theme. It supports event parsing, near-miss/crash understanding, and future counterfactual safety analysis.
+
+This dataset paper is separate from the [SAVeD deployment-oriented warning protocol](/publication/submitted-saved-protocol/), which is listed as a submitted manuscript.

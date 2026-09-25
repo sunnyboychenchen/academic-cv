@@ -7,7 +7,6 @@ authors:
 date: "2025-09-01T00:00:00Z"
 status: published
 strands: [mechanisms]
-home_selected: 4
 contribution: "Integrates visual environment features and spatial effects to study intersection crash frequency and variation across locations and periods."
 doi: "10.1016/j.amar.2025.100387"
 publication_types: ["article-journal"]

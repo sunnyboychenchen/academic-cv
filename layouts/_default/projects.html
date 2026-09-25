@@ -1,0 +1,9 @@
+{{ define "main" }}
+<div class="wrap projects-page">
+  <header class="page-intro"><p class="eyebrow">Projects</p><h1>Research leadership &amp; collaboration</h1><div class="lede">{{ .Content }}</div><p class="section-note funding-note">Amounts refer to total project funding, not personal awards. Proposed funding is shown separately from awarded funding.</p></header>
+  {{ $projects := (where site.RegularPages "Section" "project").ByWeight }}
+  {{ range slice (dict "key" "pi-awarded" "title" "Principal Investigator: awarded") (dict "key" "pi-pending" "title" "Principal Investigator: pending approval") (dict "key" "collaborative" "title" "Collaborative projects") (dict "key" "other" "title" "Other research involvement") }}
+    <section class="project-group"><h2>{{ .title }}</h2>{{ range where $projects "Params.group" .key }}{{ partial "cw/project" . }}{{ end }}</section>
+  {{ end }}
+</div>
+{{ end }}

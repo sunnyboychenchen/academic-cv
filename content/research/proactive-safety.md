@@ -3,32 +3,29 @@ title: Proactive Crash Risk Prediction and Prevention
 weight: 1
 strand: proactive
 filter_label: Proactive safety
-description: "Can we identify risk before a crash occurs? I connect vehicle trajectories, risky-driving events, and traffic states to support earlier, more targeted safety interventions."
-summary: "Anticipating crash risk using connected-vehicle trajectories, traffic states, and behavior-aware models."
+description: "Can risk be identified before a crash? I combine connected-vehicle trajectories, traffic states, and driving behavior to support timely, context-sensitive prevention."
+summary: "Anticipating crash occurrence and type through connected-vehicle data, spatiotemporal learning, and causal explanation."
 question: "How can we identify risk before crashes occur and translate that evidence into prevention?"
 cover: /media/research/connected-roadways.png
 cover_alt: "Central Florida roadway network used in the connected-vehicle crash-risk and causal mediation study."
 figure_caption: "Roadway study network from the connected-vehicle crash-risk and causal mediation study."
-figure_source: "From prediction to explanation"
 figure_url: https://doi.org/10.1016/j.trc.2025.105479
 aliases: ["/project/proactive-crash-prediction/", "/project/speed-management-moes/"]
 ---
-## From observed behavior to early risk evidence
+## Real-time risk and crash-type prediction
 
-Connected-vehicle trajectories provide a view of traffic behavior beyond fixed roadway detectors. I examine how risky-driving events and traffic states can help identify where and when crash risk increases.
+Connected-vehicle trajectories and risky-driving events offer information beyond fixed traffic detectors. My work links these observations with traffic states to predict both crash occurrence and crash type.
 
-This work combines sequence learning with interpretable statistical analysis. A complementary goal is to link a model's prediction to the driving and roadway conditions that produced it.
+The published [BiLSTM-Transformer study](/publication/ojits-bilstm-crash-type/) examines spatiotemporal prediction using connected-vehicle data. [Machine learning with causal mediation](/publication/journal-article/) provides a complementary way to investigate the pathways behind estimated risk.
 
-## Data and methods
+## Behavior-aware prevention
 
-- Connected-vehicle trajectories, traffic flow, and risky-driving events.
-- Spatiotemporal sequence models, including LSTM and Transformer architectures.
-- Causal mediation and interpretable modeling for mechanism-oriented risk assessment.
+Current work examines driver-group differences, perception, and interactions between roadway environment and driving behavior. The submitted [BusMEP manuscript](/publication/submitted-busmep/) addresses bus safety-risk prediction; it is not a study of autonomous buses.
 
-## Prevention and operations
+A separate submitted [deep-ensemble and causal-learning study](/publication/submitted-behavior-aware-ensemble/) focuses on multi-source freeway safety assessment.
 
-My research on speed-management measures of effectiveness connects safety evidence with operational decisions. Related work jointly models tunnel crash severity and congestion duration, bringing safety and mobility outcomes into the same analysis.
+## Safety and operations
 
-## Ongoing directions
+Speed-management measures of effectiveness connect risk evidence with operational decisions. My [FDOT PI proposal](/project/speed-management-context/) is pending approval, while related published studies examine tunnel crash severity and congestion duration and post-crash speed forecasting.
 
-I am extending behavior-aware risk assessment toward multi-source traffic sensing and actionable measures for speed management. These directions are ongoing research, rather than demonstrated deployment outcomes.
+**Methods:** spatiotemporal sequence learning, causal mediation, interpretable models, and multi-source data integration.

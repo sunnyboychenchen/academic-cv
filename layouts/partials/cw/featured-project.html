@@ -1,0 +1,6 @@
+{{ with site.GetPage "/project/fhwa-roadway-adas" }}
+<section class="section featured-project"><div class="wrap">
+  <div class="section-heading"><div><p class="eyebrow">Featured project</p><h2>{{ .Params.short_title }}</h2></div><a class="text-link" href="{{ "/projects/" | relURL }}">All projects {{ partial "cw/icon" "arrow-right" }}</a></div>
+  <div class="featured-project-body"><div><p>{{ .Params.summary }}</p><a class="text-link" href="{{ .RelPermalink }}">Project &amp; PI role {{ partial "cw/icon" "arrow-right" }}</a></div><dl><div><dt>Role</dt><dd>{{ .Params.role }}</dd></div><div><dt>Award</dt><dd>{{ .Params.agency_short }} &middot; {{ .Params.year }}</dd></div><div><dt>Project funding</dt><dd>{{ .Params.funding }}</dd></div></dl></div>
+</div></section>
+{{ end }}

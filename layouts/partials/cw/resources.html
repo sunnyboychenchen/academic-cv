@@ -1,0 +1,8 @@
+<section id="resources" class="section wrap resources-section">
+  <div class="section-heading"><div><p class="eyebrow">Resources &amp; benchmarks</p><h2>Data, protocols, and safety evaluation</h2></div></div>
+  <div class="resource-grid">
+    {{ range slice "/publication/preprint" "/publication/submitted-saved-protocol" "/publication/submitted-alarm" "/publication/submitted-msc-mtsim" }}
+      {{ with site.GetPage . }}<article class="resource-item"><p class="eyebrow">{{ .Params.status | title }}</p><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.summary }}</p><a class="text-link" href="{{ .RelPermalink }}">Research details {{ partial "cw/icon" "arrow-right" }}</a></article>{{ end }}
+    {{ end }}
+  </div>
+</section>

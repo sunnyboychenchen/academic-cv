@@ -1,0 +1,4 @@
+<article class="project-row">
+  <div class="project-aside"><span class="paper-year">{{ .Params.year }}</span><span class="status {{ if eq .Params.group "pi-pending" }}status-preprint{{ end }}">{{ .Params.status }}</span></div>
+  <div><p class="eyebrow">{{ .Params.role }} &middot; {{ .Params.agency_short }}</p><h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3><p>{{ .Params.summary }}</p>{{ with .Params.funding }}<p class="project-funding"><strong>{{ . }}</strong>{{ if ne $.Params.group "pi-pending" }} <span>total project funding</span>{{ end }}</p>{{ end }}<a class="text-link" href="{{ .RelPermalink }}">Project &amp; role {{ partial "cw/icon" "arrow-right" }}</a></div>
+</article>

@@ -1,37 +1,34 @@
 ---
-title: Safety of Emerging Vehicle Technologies
+title: Autonomous Driving, ADAS, and CAV Safety
 weight: 3
 strand: technology
-filter_label: Vehicle technologies
-description: "When do advanced vehicle technologies improve safety, and where do risks remain? I evaluate ADAS and connected vehicles, alongside ongoing work on video-based event understanding."
-summary: "Safety evaluation of ADAS and connected vehicles, with ongoing work on cyber-risk and multimodal near-miss and crash analysis."
-question: "Under what conditions do emerging vehicle technologies reduce risk, and when might they introduce new vulnerabilities?"
+filter_label: Automated vehicle safety
+description: "How can driving technologies respond safely to hazards? I study safety recovery, cyber-physical resilience, and the roadway conditions affecting ADAS performance."
+summary: "Safety boundaries, pre-crash recovery, connected-vehicle resilience, and the real-world effectiveness of driving technologies."
+question: "How can automated and connected vehicles respond safely to emerging hazards, and under what conditions do driving technologies deliver safety benefits?"
 cover: /media/research/cav-cyber-safety.jpg
 cover_alt: "Connected vehicle platoon under false-data and delayed-information attacks, with individual and platoon safety outcomes."
-figure_caption: "Cyberattack pathways and safety outcomes in a connected-vehicle platoon. Conceptual framework from the CAV cybersecurity manuscript."
-figure_source: "CAV cybersecurity manuscript, research in progress"
+figure_caption: "Cyberattack pathways and safety outcomes in a connected-vehicle platoon. Research framework from the CAV cybersecurity manuscript, not a deployed protection system."
 aliases: ["/project/multimodal-adas-video/"]
 ---
-## Evaluating safety in context
+I examine ADAS and connected and automated vehicle safety through crash-data analysis, simulation, and vehicle-dynamics-informed evaluation. Driving assistance and automated driving are distinct capabilities; safety claims must be tied to the technology and operating conditions being evaluated.
 
-The safety effects of advanced driver assistance systems depend on the situations in which vehicles operate. My collaborative work evaluates ADAS using crash evidence to understand effectiveness across conditions.
+## Safety-critical decision-making and recovery
 
-Connected and automated vehicles also introduce new interactions among drivers, automation, communications, and surrounding traffic. I study these interactions as safety questions, rather than treating technological capability as evidence of safety by itself.
+Current collaborative research asks how vehicles can recover from developing hazards. The submitted [ALARM study](/publication/submitted-alarm/) concerns local action safety boundaries and pre-crash safety recovery. A separate [controller-state recovery study](/publication/submitted-controller-state-recovery/) examines resilience during CAV-HDV on-ramp merging.
 
-## Ongoing research
+These are submitted research manuscripts, not claims of validated deployment performance.
 
-### Connected-vehicle cyber-safety
+## Cyber-physical resilience and vehicle dynamics
 
-The CAV cybersecurity manuscript examines how false data and delayed information can affect platoon behavior and risk. The figure above describes the study framework, not a claim of deployed protection or validated system-wide performance.
+Communication failures and cyberattacks can affect vehicle behavior through physical constraints. The submitted [tire-force risk-envelope study](/publication/submitted-tire-force/) addresses CACC platoons under cyberattacks and reduced-friction roadways.
 
-### Multimodal near-miss and crash understanding
+Related work includes a [mixed-traffic cyberattack simulation platform](/publication/submitted-msc-mtsim/) and [connected-platoon impact assessment](/publication/submitted-platoon-cyberattack/). These studies connect information disturbances with vehicle dynamics and collision risk.
 
-The SAVeD preprint presents a first-person social-media video dataset for ADAS-related near-miss and crash event analysis. It supports the study of safety-critical events through video evidence and annotations.
+## ADAS effectiveness and infrastructure compatibility
 
-Further work explores vision-language models and controllable generative approaches for event interpretation and counterfactual scenarios. These remain research directions; generated scenarios are not substitutes for observed safety evidence.
+The published [ADAS effectiveness study](/publication/jsr-adas-effectiveness/) evaluates safety using real-world crash records.
 
-## Data and methods
+As PI of an awarded [FHWA project](/project/fhwa-roadway-adas/), I lead work on roadway design and infrastructure factors influencing ADAS technologies for mitigating rural roadway departure crashes. This complements the technology-focused work with a road-engineering perspective.
 
-- Crash records for evaluating ADAS safety effectiveness.
-- First-person traffic video, event annotations, and multimodal machine learning.
-- Connected-vehicle simulation for examining communication and cyberattack scenarios.
+**Methods:** crash-data evaluation, simulation, causal analysis, vehicle-dynamics constraints, and safety-boundary assessment.

@@ -4,6 +4,7 @@ if (publications) {
   const search = form.querySelector('#paper-search');
   const strand = form.querySelector('#paper-strand');
   const year = form.querySelector('#paper-year');
+  const status = form.querySelector('#paper-status');
   const papers = [...publications.querySelectorAll('[data-paper]')];
   const count = publications.querySelector('.filter-count');
   const empty = publications.querySelector('.empty-state');
@@ -16,14 +17,15 @@ if (publications) {
     for (const paper of papers) {
       const matches = terms.every(term => index.get(paper).includes(term))
         && (!strand.value || paper.dataset.strands.split(' ').includes(strand.value))
-        && (!year.value || paper.dataset.year === year.value);
+        && (!year.value || paper.dataset.year === year.value)
+        && (!status.value || paper.dataset.status === status.value);
       paper.hidden = !matches;
       if (matches) visible++;
     }
     for (const section of publications.querySelectorAll('[data-paper-section]')) {
       section.hidden = !section.querySelector('[data-paper]:not([hidden])');
     }
-    count.textContent = visible + (visible === 1 ? ' publication' : ' publications');
+    count.textContent = visible + (visible === 1 ? ' research record' : ' research records');
     empty.hidden = visible !== 0;
   }
 

@@ -93,9 +93,10 @@ skills:
       - name: ArcGIS / GeoPandas / Google Earth Engine
         percent: 85
         icon: map
-      - name: SUMO / CARLA / VISSIM / Abaqus
+      - name: SUMO / CARLA / VISSIM / UC-win/road / Abaqus
         percent: 80
         icon: truck
+      - name: MATLAB
 
 languages:
   - name: English
