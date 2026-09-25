@@ -1,6 +1,8 @@
 # Maintaining the academic site
 
-The site continues to use Hugo 0.136.5 and the existing HugoBlox modules and GitHub Pages workflow. No client-side framework or production npm dependency has been added.
+The site continues to use Hugo 0.136.5 and the existing HugoBlox modules. The production domain is hosted by Netlify, which rebuilds from the GitHub repository using `netlify.toml`. No client-side framework or production npm dependency has been added.
+
+The repository also contains a legacy GitHub Pages workflow. On 2026-09-25 it failed at `Setup Pages` because no Pages site was configured. This is separate from the working Netlify deployment; no GitHub Pages or domain settings were changed in this revision.
 
 ## Content
 
