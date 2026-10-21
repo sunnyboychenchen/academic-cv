@@ -1,5 +1,6 @@
 ---
 title: "Chenzhu Wang"
+credentials: "Ph.D., P.E. (FL)"
 name_pronunciation:
 
 first_name: Chenzhu

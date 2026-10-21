@@ -54,6 +54,7 @@ const checks = [];
       }
     }
     await page.goto(base+'/');
+    assert.equal(await page.locator('main h1').textContent(),'Chenzhu Wang, Ph.D., P.E. (FL)');
     assert.equal(await page.locator('.research-card').count(),4);
     assert.equal(await page.locator('[data-paper]').count(),4);
     assert.equal(await page.locator('[data-paper]:not([data-status="published"])').count(),0);
@@ -71,7 +72,10 @@ const checks = [];
     assert.match(profile,/Ph\.D\. awarded 2023/i);
     assert.match(profile,/School of Transportation, Southeast University/);
     assert.match(profile,/Ph\.D\. committee member/);
-    assert.match(profile,/exam completion is distinct from professional engineer licensure/);
+    assert.equal(await page.locator('main h1').textContent(),'Chenzhu Wang, Ph.D., P.E. (FL)');
+    assert.match(profile,/Professional Engineer \(P\.E\.\), Florida/);
+    assert.match(profile,/Licensed Professional Engineer in the State of Florida/);
+    assert.doesNotMatch(profile,/exam completion is distinct from professional engineer licensure|Engineer Intern, Florida|PE Civil Examination/);
     await page.goto(base+'/publication/');
     const papers = page.locator('[data-paper]');
     assert.equal(await papers.count(),25);

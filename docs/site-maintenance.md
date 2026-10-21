@@ -34,7 +34,7 @@ Source: the owner's September 25, 2026 CV, submission screenshots in the referen
 - SHRP2 has no cash funding reported; it appears under other research involvement, not the funded-PI section. Do not infer the type or value of non-cash support.
 - Published DOI records supersede duplicated submitted entries in the CV (for example, the BiLSTM-Transformer and DE-GAM articles).
 - The VLM review was published online July 15, 2026, with an October 2026 issue date. Use the online date so Hugo does not hide a published paper as future content.
-- Qualifications distinguish passing FE/PE examinations from professional licensure. Do not add the P.E. postnominal.
+- The owner confirmed Florida PE licensure on October 21, 2026. The displayed credentials are now Ph.D., P.E. (FL), and Qualifications lists Professional Engineer in Florida instead of Engineer Intern and PE exam-only status. No license number or issue date has been inferred. Credentials are shared through the author profile's `credentials` field.
 - Doctoral committee membership does not imply primary supervision.
 - Keep manuscript IDs, editors, private screenshots, license numbers, full CV extraction, and local QA evidence out of public assets and commits.
 

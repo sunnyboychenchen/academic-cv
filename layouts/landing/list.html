@@ -3,7 +3,7 @@
 <section id="about" class="intro wrap">
   <div class="identity">
     {{ with $author.Resources.GetMatch "avatar11.jpg" }}{{ $portrait := .Fit "360x440 webp" }}<img class="portrait" src="{{ $portrait.RelPermalink }}" alt="Chenzhu Wang" width="{{ $portrait.Width }}" height="{{ $portrait.Height }}" fetchpriority="high">{{ end }}
-    <div><p class="eyebrow">{{ $author.Params.role }}</p><h1>Chenzhu Wang<span class="degree">, Ph.D.</span></h1><p class="affiliation">University of Central Florida<br><a href="https://smartsafe.ucf.edu">Smart &amp; Safe Transportation Lab {{ partial "cw/icon" "arrow-up-right" }}</a></p></div>
+    <div><p class="eyebrow">{{ $author.Params.role }}</p><h1>{{ $author.Title }}<span class="degree"><span class="degree-separator">, </span>{{ $author.Params.credentials }}</span></h1><p class="affiliation">University of Central Florida<br><a href="https://smartsafe.ucf.edu">Smart &amp; Safe Transportation Lab {{ partial "cw/icon" "arrow-up-right" }}</a></p></div>
   </div>
   <h2 class="intro-title">{{ .Params.tagline }}</h2>
   <p class="intro-copy">{{ .Params.intro }}</p>

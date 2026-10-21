@@ -30,7 +30,7 @@ html { scroll-behavior:smooth; scroll-padding-top:100px; color-scheme:light; }
 .academic-site .eyebrow { font-size:12px; font-weight:650; color:var(--teal); text-transform:uppercase; margin-bottom:12px; }
 .identity .eyebrow { margin-bottom:8px; }
 .academic-site .identity h1 { font-size:44px; }
-.degree { font-size:25px; font-weight:400; }
+.degree { font-size:25px; font-weight:400; white-space:nowrap; }
 .affiliation { margin-top:10px !important; font-size:15px; color:var(--muted); line-height:1.6; }
 .academic-site .intro-title { font-family:Georgia,"Times New Roman",serif; font-size:32px; font-weight:400; margin-top:28px; }
 .intro-copy { max-width:850px; margin-top:15px !important; color:var(--muted); font-size:17px; line-height:1.75; }
@@ -187,7 +187,8 @@ html { scroll-behavior:smooth; scroll-padding-top:100px; color-scheme:light; }
   .academic-site .site-nav a { font-size:13px; padding-block:8px; }
   .intro { padding-block:28px 34px; }
   .identity { gap:17px; } .portrait { width:76px; height:98px; }
-  .academic-site .identity h1 { font-size:28px; } .degree { font-size:18px; }
+  .academic-site .identity h1 { font-size:28px; } .degree { display:block; margin-top:5px; font-size:18px; }
+  .degree-separator { display:none; }
   .identity .eyebrow { font-size:10px; margin-bottom:7px; }
   .affiliation { font-size:12px; margin-top:9px !important; }
   .academic-site .intro-title { font-size:28px; margin-top:24px; }
